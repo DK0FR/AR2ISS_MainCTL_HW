@@ -1,0 +1,183 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC846 Q?
+U 1 1 607AAC4D
+P 4200 2600
+F 0 "Q?" H 4391 2646 50  0000 L CNN
+F 1 "BC846" H 4391 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 2525 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 4200 2600 50  0001 L CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:FINDER-34.51 K?
+U 1 1 607AF9F0
+P 4500 1800
+F 0 "K?" H 4930 1846 50  0000 L CNN
+F 1 "FINDER-34.51" H 4930 1755 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 5640 1760 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148WS D?
+U 1 1 607B0001
+P 3850 1800
+F 0 "D?" V 3804 1720 50  0000 R CNN
+F 1 "1N4148WS" H 4000 1900 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 3850 1625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 607B0D41
+P 4300 2900
+F 0 "#PWR?" H 4300 2650 50  0001 C CNN
+F 1 "GND" H 4305 2727 50  0000 C CNN
+F 2 "" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1950 3850 2250
+Wire Wire Line
+	4300 2100 4300 2250
+Connection ~ 4300 2250
+Wire Wire Line
+	4300 2250 4300 2400
+$Comp
+L AR2ISS:R R?
+U 1 1 607B14CA
+P 3500 2600
+F 0 "R?" V 3293 2600 50  0000 C CNN
+F 1 "1k" V 3384 2600 50  0000 C CNN
+F 2 "" V 3430 2600 50  0001 C CNN
+F 3 "~" H 3500 2600 50  0001 C CNN
+	1    3500 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 1500 4300 1300
+Wire Wire Line
+	3850 1650 3850 1300
+Connection ~ 4300 1300
+Wire Wire Line
+	4300 1300 4300 1000
+Wire Wire Line
+	3650 2600 4000 2600
+Text HLabel 2950 2600 0    50   Input ~ 0
+REL1
+Wire Wire Line
+	3350 2600 2950 2600
+$Comp
+L power:+12V #PWR?
+U 1 1 607B2738
+P 4300 1000
+F 0 "#PWR?" H 4300 850 50  0001 C CNN
+F 1 "+12V" H 4315 1173 50  0000 C CNN
+F 2 "" H 4300 1000 50  0001 C CNN
+F 3 "" H 4300 1000 50  0001 C CNN
+	1    4300 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 607B2FE7
+P 6200 1900
+F 0 "J?" H 6228 1926 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 6228 1835 50  0000 L CNN
+F 2 "" H 6200 1900 50  0001 C CNN
+F 3 "~" H 6200 1900 50  0001 C CNN
+	1    6200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1900 5500 1900
+Wire Wire Line
+	5500 1900 5500 2200
+Wire Wire Line
+	5500 2200 4700 2200
+Wire Wire Line
+	4700 2200 4700 2100
+Wire Wire Line
+	4800 1500 4800 1400
+Wire Wire Line
+	4800 1400 5750 1400
+Wire Wire Line
+	5750 1400 5750 1800
+Wire Wire Line
+	5750 1800 6000 1800
+Wire Wire Line
+	4600 1500 4600 1300
+Wire Wire Line
+	4600 1300 5650 1300
+Wire Wire Line
+	5650 1300 5650 2000
+Wire Wire Line
+	5650 2000 6000 2000
+$Comp
+L Device:LED D?
+U 1 1 607B4661
+P 3400 1950
+F 0 "D?" V 3439 2030 50  0000 L CNN
+F 1 "LED" V 3348 2030 50  0000 L CNN
+F 2 "" H 3400 1950 50  0001 C CNN
+F 3 "~" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 607B56B3
+P 3400 1550
+F 0 "R?" H 3470 1596 50  0000 L CNN
+F 1 "820" H 3470 1505 50  0000 L CNN
+F 2 "" V 3330 1550 50  0001 C CNN
+F 3 "~" H 3400 1550 50  0001 C CNN
+	1    3400 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1300 3400 1400
+Wire Wire Line
+	3400 2250 3850 2250
+Connection ~ 3850 2250
+Wire Wire Line
+	3400 2100 3400 2250
+Wire Wire Line
+	3850 2250 4300 2250
+Wire Wire Line
+	3400 1700 3400 1800
+Wire Wire Line
+	4300 2800 4300 2900
+Connection ~ 3850 1300
+Wire Wire Line
+	3850 1300 4300 1300
+Wire Wire Line
+	3400 1300 3850 1300
+Text HLabel 2450 5300 0    50   Input ~ 0
+REL2
+Text HLabel 2450 5500 0    50   Input ~ 0
+REL3
+Text HLabel 2450 5600 0    50   Input ~ 0
+REL4
+$EndSCHEMATC

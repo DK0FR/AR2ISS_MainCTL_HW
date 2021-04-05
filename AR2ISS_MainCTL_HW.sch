@@ -1,4 +1,63 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 11300 5400 1200 1950
+U 607A6028
+F0 "Relay" 50
+F1 "Relay.sch" 50
+F2 "REL1" I L 11300 5650 50 
+F3 "REL2" I L 11300 5850 50 
+F4 "REL3" I L 11300 6050 50 
+F5 "REL4" I L 11300 6250 50 
+$EndSheet
+$Sheet
+S 11350 2600 1150 2000
+U 607BA83E
+F0 "DOut" 50
+F1 "DOut.sch" 50
+F2 "#CS1" I L 11350 2800 50 
+F3 "EN1" I L 11350 3000 50 
+F4 "#CS2" I L 11350 3250 50 
+F5 "EN2" I L 11350 3450 50 
+F6 "SPI" I L 11350 3700 50 
+F7 "PWM_DOUT" I L 11350 3950 50 
+$EndSheet
+$Sheet
+S 3050 2250 1250 1950
+U 6069F05D
+F0 "ADIn" 50
+F1 "ADIn.sch" 50
+F2 "DA_IN_LL" I R 4300 2500 50 
+$EndSheet
+$Sheet
+S 6000 2000 3950 7500
+U 6089A44A
+F0 "controller" 50
+F1 "controller.sch" 50
+$EndSheet
+$Sheet
+S 2650 5550 1250 2000
+U 6089ADE2
+F0 "serial" 50
+F1 "serial.sch" 50
+$EndSheet
+$Sheet
+S 11300 8200 1200 1200
+U 608A378A
+F0 "RS485" 50
+F1 "RS485.sch" 50
+$EndSheet
 $EndSCHEMATC
