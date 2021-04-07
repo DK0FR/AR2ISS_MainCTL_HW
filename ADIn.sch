@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 6069F1AD
 P 4200 1350
 F 0 "R?" V 3993 1350 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 4200 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606A0627
 P 4500 1600
 F 0 "C?" H 4615 1646 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 4850 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606A28F7
 P 5350 1600
 F 0 "R?" H 5420 1646 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 5350 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606A2E2D
 P 5650 1350
 F 0 "R?" V 5443 1350 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "~" H 1050 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AAA50
 P 4200 2400
 F 0 "R?" V 3993 2400 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "~" H 4200 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606AAA56
 P 4500 2650
 F 0 "C?" H 4615 2696 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "~" H 4850 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AAA62
 P 5350 2650
 F 0 "R?" H 5420 2696 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "~" H 5350 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AAA68
 P 5650 2400
 F 0 "R?" V 5443 2400 50  0000 C CNN
@@ -247,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2800 5350 2900
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AEF1D
 P 4200 3500
 F 0 "R?" V 3993 3500 50  0000 C CNN
@@ -258,7 +258,7 @@ F 3 "~" H 4200 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606AEF23
 P 4500 3750
 F 0 "C?" H 4615 3796 50  0000 L CNN
@@ -280,7 +280,7 @@ F 3 "~" H 4850 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AEF2F
 P 5350 3750
 F 0 "R?" H 5420 3796 50  0000 L CNN
@@ -291,7 +291,7 @@ F 3 "~" H 5350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AEF35
 P 5650 3500
 F 0 "R?" V 5443 3500 50  0000 C CNN
@@ -358,7 +358,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3900 5350 4000
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AEF5B
 P 4200 4700
 F 0 "R?" V 3993 4700 50  0000 C CNN
@@ -369,7 +369,7 @@ F 3 "~" H 4200 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606AEF61
 P 4500 4950
 F 0 "C?" H 4615 4996 50  0000 L CNN
@@ -391,7 +391,7 @@ F 3 "~" H 4850 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AEF6D
 P 5350 4950
 F 0 "R?" H 5420 4996 50  0000 L CNN
@@ -402,7 +402,7 @@ F 3 "~" H 5350 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606AEF73
 P 5650 4700
 F 0 "R?" V 5443 4700 50  0000 C CNN
@@ -469,7 +469,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 5100 5350 5200
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C2FCD
 P 8300 1350
 F 0 "R?" V 8093 1350 50  0000 C CNN
@@ -480,7 +480,7 @@ F 3 "~" H 8300 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606C2FD3
 P 8600 1600
 F 0 "C?" H 8715 1646 50  0000 L CNN
@@ -502,7 +502,7 @@ F 3 "~" H 8950 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C2FDF
 P 9450 1600
 F 0 "R?" H 9520 1646 50  0000 L CNN
@@ -513,7 +513,7 @@ F 3 "~" H 9450 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C2FE5
 P 9750 1350
 F 0 "R?" V 9543 1350 50  0000 C CNN
@@ -580,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 1750 9450 1850
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C300B
 P 8300 2500
 F 0 "R?" V 8093 2500 50  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "~" H 8300 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606C3011
 P 8600 2750
 F 0 "C?" H 8715 2796 50  0000 L CNN
@@ -613,7 +613,7 @@ F 3 "~" H 8950 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C301D
 P 9450 2750
 F 0 "R?" H 9520 2796 50  0000 L CNN
@@ -624,7 +624,7 @@ F 3 "~" H 9450 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C3023
 P 9750 2500
 F 0 "R?" V 9543 2500 50  0000 C CNN
@@ -691,7 +691,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 2900 9450 3000
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C3049
 P 8300 3700
 F 0 "R?" V 8093 3700 50  0000 C CNN
@@ -702,7 +702,7 @@ F 3 "~" H 8300 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606C304F
 P 8600 3950
 F 0 "C?" H 8715 3996 50  0000 L CNN
@@ -724,7 +724,7 @@ F 3 "~" H 8950 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C305B
 P 9450 3950
 F 0 "R?" H 9520 3996 50  0000 L CNN
@@ -735,7 +735,7 @@ F 3 "~" H 9450 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C3061
 P 9750 3700
 F 0 "R?" V 9543 3700 50  0000 C CNN
@@ -802,7 +802,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 4100 9450 4200
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C3087
 P 8300 4850
 F 0 "R?" V 8093 4850 50  0000 C CNN
@@ -813,7 +813,7 @@ F 3 "~" H 8300 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:C C?
+L AR2ISS:C C?
 U 1 1 606C308D
 P 8600 5100
 F 0 "C?" H 8715 5146 50  0000 L CNN
@@ -835,7 +835,7 @@ F 3 "~" H 8950 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C3099
 P 9450 5100
 F 0 "R?" H 9520 5146 50  0000 L CNN
@@ -846,7 +846,7 @@ F 3 "~" H 9450 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ar2iss:R R?
+L AR2ISS:R R?
 U 1 1 606C309F
 P 9750 4850
 F 0 "R?" V 9543 4850 50  0000 C CNN
@@ -1033,10 +1033,10 @@ Wire Bus Line
 Connection ~ 6300 900 
 NoConn ~ 6300 5950
 NoConn ~ 10400 5950
+Text HLabel 5500 900  0    50   Input ~ 0
+DA_IN_LL
 Wire Bus Line
 	10400 900  10400 5950
 Wire Bus Line
 	6300 900  6300 5950
-Text HLabel 5500 900  0    50   Input ~ 0
-DA_IN_LL
 $EndSCHEMATC
