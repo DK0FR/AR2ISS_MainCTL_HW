@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 6 19
 Title ""
 Date ""
 Rev ""
@@ -263,12 +263,12 @@ $EndComp
 $Comp
 L AR2ISS:R R?
 U 1 1 60AB256C
-P 5800 5500
-F 0 "R?" H 5870 5546 50  0000 L CNN
-F 1 "1k" H 5870 5455 50  0000 L CNN
-F 2 "" V 5730 5500 50  0001 C CNN
-F 3 "~" H 5800 5500 50  0001 C CNN
-	1    5800 5500
+P 6350 4750
+F 0 "R?" H 6420 4796 50  0000 L CNN
+F 1 "3k" H 6420 4705 50  0000 L CNN
+F 2 "" V 6280 4750 50  0001 C CNN
+F 3 "~" H 6350 4750 50  0001 C CNN
+	1    6350 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -326,7 +326,7 @@ Wire Wire Line
 	5800 4750 6100 4750
 Wire Wire Line
 	5800 5150 6100 5150
-Text Label 5800 5300 0    50   ~ 0
+Text Label 6350 4950 3    50   ~ 0
 DE3
 $Comp
 L AR2ISS:C C?
@@ -339,8 +339,6 @@ F 3 "~" H 6550 4950 50  0001 C CNN
 	1    6550 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 5300 5800 5350
 Wire Wire Line
 	6550 5100 6550 5700
 Wire Wire Line
@@ -486,7 +484,7 @@ Wire Wire Line
 	5800 3900 6550 3900
 Connection ~ 5800 3900
 Wire Wire Line
-	5500 4500 6550 4500
+	5500 4500 6350 4500
 Wire Wire Line
 	5800 5700 6550 5700
 Connection ~ 5800 5700
@@ -912,4 +910,11 @@ Wire Wire Line
 	4350 7000 4850 7000
 Wire Wire Line
 	3750 7000 3000 7000
+Wire Wire Line
+	6350 4600 6350 4500
+Connection ~ 6350 4500
+Wire Wire Line
+	6350 4500 6550 4500
+Wire Wire Line
+	6350 4900 6350 4950
 $EndSCHEMATC

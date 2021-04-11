@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 18 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Micro_SD_Card J?
+U 1 1 60B19F5A
+P 6050 3300
+F 0 "J?" H 6000 4017 50  0000 C CNN
+F 1 "Micro_SD_Card" H 6000 3926 50  0000 C CNN
+F 2 "" H 7200 3600 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 6050 3300 50  0001 C CNN
+	1    6050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 60B1A9A3
+P 4500 2350
+F 0 "R?" H 4570 2396 50  0000 L CNN
+F 1 "47k" H 4570 2305 50  0000 L CNN
+F 2 "" V 4430 2350 50  0001 C CNN
+F 3 "~" H 4500 2350 50  0001 C CNN
+	1    4500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 60B1ACDA
+P 4250 2350
+F 0 "R?" H 4320 2396 50  0000 L CNN
+F 1 "47k" H 4320 2305 50  0000 L CNN
+F 2 "" V 4180 2350 50  0001 C CNN
+F 3 "~" H 4250 2350 50  0001 C CNN
+	1    4250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 60B1AF67
+P 4000 2350
+F 0 "R?" H 4070 2396 50  0000 L CNN
+F 1 "47k" H 4070 2305 50  0000 L CNN
+F 2 "" V 3930 2350 50  0001 C CNN
+F 3 "~" H 4000 2350 50  0001 C CNN
+	1    4000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 60B1B1CC
+P 3750 2350
+F 0 "R?" H 3820 2396 50  0000 L CNN
+F 1 "47k" H 3820 2305 50  0000 L CNN
+F 2 "" V 3680 2350 50  0001 C CNN
+F 3 "~" H 3750 2350 50  0001 C CNN
+	1    3750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 60B1B3E6
+P 3500 2350
+F 0 "R?" H 3570 2396 50  0000 L CNN
+F 1 "47k" H 3570 2305 50  0000 L CNN
+F 2 "" V 3430 2350 50  0001 C CNN
+F 3 "~" H 3500 2350 50  0001 C CNN
+	1    3500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60B1B7F1
+P 3500 1750
+F 0 "#PWR?" H 3500 1600 50  0001 C CNN
+F 1 "+3V3" H 3515 1923 50  0000 C CNN
+F 2 "" H 3500 1750 50  0001 C CNN
+F 3 "" H 3500 1750 50  0001 C CNN
+	1    3500 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3000 4500 3000
+Wire Wire Line
+	4500 3000 4500 2500
+Text HLabel 3100 3100 0    50   Input ~ 0
+#CS
+Text HLabel 3100 3200 0    50   Input ~ 0
+MOSI
+Wire Wire Line
+	5150 3300 4800 3300
+Wire Wire Line
+	4800 3300 4800 2000
+Wire Wire Line
+	4800 2000 4500 2000
+Wire Wire Line
+	3500 2000 3500 1750
+Wire Wire Line
+	3500 2000 3500 2200
+Connection ~ 3500 2000
+Wire Wire Line
+	3750 2200 3750 2000
+Connection ~ 3750 2000
+Wire Wire Line
+	3750 2000 3500 2000
+Wire Wire Line
+	4000 2200 4000 2000
+Connection ~ 4000 2000
+Wire Wire Line
+	4000 2000 3750 2000
+Wire Wire Line
+	4250 2200 4250 2000
+Connection ~ 4250 2000
+Wire Wire Line
+	4250 2000 4000 2000
+Wire Wire Line
+	4500 2200 4500 2000
+Connection ~ 4500 2000
+Wire Wire Line
+	4500 2000 4250 2000
+Text HLabel 3100 3400 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	3100 3400 5150 3400
+Text HLabel 3100 3600 0    50   Input ~ 0
+MISO
+Wire Wire Line
+	3100 3600 3500 3600
+Wire Wire Line
+	5150 3700 4250 3700
+Wire Wire Line
+	3500 2500 3500 3600
+Connection ~ 3500 3600
+Wire Wire Line
+	3500 3600 5150 3600
+Wire Wire Line
+	3750 2500 3750 3100
+Connection ~ 3750 3100
+Wire Wire Line
+	3750 3100 3100 3100
+Wire Wire Line
+	4000 2500 4000 3200
+Wire Wire Line
+	3100 3200 4000 3200
+Connection ~ 4000 3200
+Wire Wire Line
+	4000 3200 5150 3200
+Wire Wire Line
+	3750 3100 5150 3100
+Wire Wire Line
+	4250 2500 4250 3700
+$Comp
+L power:GND #PWR?
+U 1 1 60B1F0D1
+P 4800 4050
+F 0 "#PWR?" H 4800 3800 50  0001 C CNN
+F 1 "GND" H 4805 3877 50  0000 C CNN
+F 2 "" H 4800 4050 50  0001 C CNN
+F 3 "" H 4800 4050 50  0001 C CNN
+	1    4800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4050 4800 3500
+Wire Wire Line
+	4800 3500 5150 3500
+$Comp
+L AR2ISS:C C?
+U 1 1 60B1FB94
+P 5050 2350
+F 0 "C?" H 5165 2396 50  0000 L CNN
+F 1 "100nF" H 5165 2305 50  0000 L CNN
+F 2 "" H 5088 2200 50  0001 C CNN
+F 3 "~" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2200 5050 2000
+Wire Wire Line
+	5050 2000 4800 2000
+Connection ~ 4800 2000
+$Comp
+L power:GND #PWR?
+U 1 1 60B20AF9
+P 5050 2600
+F 0 "#PWR?" H 5050 2350 50  0001 C CNN
+F 1 "GND" H 5055 2427 50  0000 C CNN
+F 2 "" H 5050 2600 50  0001 C CNN
+F 3 "" H 5050 2600 50  0001 C CNN
+	1    5050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2500 5050 2600
+$EndSCHEMATC

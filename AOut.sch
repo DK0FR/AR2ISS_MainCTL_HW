@@ -1,0 +1,477 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 19 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AR2ISS:R R?
+U 1 1 6073B32B
+P 5400 3550
+F 0 "R?" H 5470 3596 50  0000 L CNN
+F 1 "8.2k" H 5470 3505 50  0000 L CNN
+F 2 "" V 5330 3550 50  0001 C CNN
+F 3 "~" H 5400 3550 50  0001 C CNN
+	1    5400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 6073B946
+P 6000 3250
+F 0 "R?" V 5793 3250 50  0000 C CNN
+F 1 "27k" V 5884 3250 50  0000 C CNN
+F 2 "" V 5930 3250 50  0001 C CNN
+F 3 "~" H 6000 3250 50  0001 C CNN
+	1    6000 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 3250 5400 3250
+Wire Wire Line
+	5400 3250 5400 2850
+Wire Wire Line
+	5400 2850 5650 2850
+Wire Wire Line
+	5400 3250 5400 3400
+Connection ~ 5400 3250
+Wire Wire Line
+	6150 3250 6450 3250
+Wire Wire Line
+	6450 3250 6450 2750
+Wire Wire Line
+	6450 2750 6250 2750
+$Comp
+L power:GND #PWR?
+U 1 1 6073C555
+P 5400 3850
+F 0 "#PWR?" H 5400 3600 50  0001 C CNN
+F 1 "GND" H 5405 3677 50  0000 C CNN
+F 2 "" H 5400 3850 50  0001 C CNN
+F 3 "" H 5400 3850 50  0001 C CNN
+	1    5400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3850 5400 3700
+$Comp
+L AR2ISS:R R?
+U 1 1 6073CBD1
+P 4550 2650
+F 0 "R?" V 4343 2650 50  0000 C CNN
+F 1 "1k" V 4434 2650 50  0000 C CNN
+F 2 "" V 4480 2650 50  0001 C CNN
+F 3 "~" H 4550 2650 50  0001 C CNN
+	1    4550 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 2650 4950 2650
+Text HLabel 4000 2650 0    50   Input ~ 0
+DAC1
+Wire Wire Line
+	4000 2650 4400 2650
+$Comp
+L AR2ISS:C C?
+U 1 1 6073D6CD
+P 4950 3050
+F 0 "C?" H 5065 3096 50  0000 L CNN
+F 1 "100nF" H 5065 3005 50  0000 L CNN
+F 2 "" H 4988 2900 50  0001 C CNN
+F 3 "~" H 4950 3050 50  0001 C CNN
+	1    4950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2900 4950 2650
+Connection ~ 4950 2650
+Wire Wire Line
+	4950 2650 5650 2650
+$Comp
+L power:GND #PWR?
+U 1 1 6073DBE5
+P 4950 3450
+F 0 "#PWR?" H 4950 3200 50  0001 C CNN
+F 1 "GND" H 4955 3277 50  0000 C CNN
+F 2 "" H 4950 3450 50  0001 C CNN
+F 3 "" H 4950 3450 50  0001 C CNN
+	1    4950 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3450 4950 3200
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 6073E065
+P 8100 2850
+F 0 "U?" H 8100 3217 50  0000 C CNN
+F 1 "LM358" H 8100 3126 50  0000 C CNN
+F 2 "" H 8100 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8100 2850 50  0001 C CNN
+	1    8100 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2750 7650 2750
+Connection ~ 6450 2750
+Wire Wire Line
+	7800 2950 7650 2950
+Wire Wire Line
+	7650 2950 7650 3150
+Wire Wire Line
+	7650 3150 8550 3150
+Wire Wire Line
+	8550 3150 8550 2850
+Wire Wire Line
+	8550 2850 8400 2850
+$Comp
+L AR2ISS:R R?
+U 1 1 6073FEFB
+P 8150 2300
+F 0 "R?" V 7943 2300 50  0000 C CNN
+F 1 "NB" V 8034 2300 50  0000 C CNN
+F 2 "" V 8080 2300 50  0001 C CNN
+F 3 "~" H 8150 2300 50  0001 C CNN
+	1    8150 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 2300 7650 2300
+Wire Wire Line
+	7650 2300 7650 2750
+Connection ~ 7650 2750
+Wire Wire Line
+	7650 2750 6450 2750
+Wire Wire Line
+	8300 2300 8800 2300
+Wire Wire Line
+	8800 2300 8800 2850
+Wire Wire Line
+	8800 2850 8550 2850
+Connection ~ 8550 2850
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60740DE0
+P 10300 3900
+F 0 "J?" H 10380 3892 50  0000 L CNN
+F 1 "Conn_01x04" H 10380 3801 50  0000 L CNN
+F 2 "" H 10300 3900 50  0001 C CNN
+F 3 "~" H 10300 3900 50  0001 C CNN
+	1    10300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2850 9500 2850
+Wire Wire Line
+	9500 2850 9500 3800
+Wire Wire Line
+	9500 3800 10100 3800
+Connection ~ 8800 2850
+$Comp
+L power:GND #PWR?
+U 1 1 60741D3E
+P 9950 4400
+F 0 "#PWR?" H 9950 4150 50  0001 C CNN
+F 1 "GND" H 9955 4227 50  0000 C CNN
+F 2 "" H 9950 4400 50  0001 C CNN
+F 3 "" H 9950 4400 50  0001 C CNN
+	1    9950 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4400 9950 4100
+Wire Wire Line
+	9950 4100 10100 4100
+Wire Wire Line
+	10100 3900 9950 3900
+Wire Wire Line
+	9950 3900 9950 4100
+Connection ~ 9950 4100
+$Comp
+L AR2ISS:R R?
+U 1 1 60747F92
+P 5400 5750
+F 0 "R?" H 5470 5796 50  0000 L CNN
+F 1 "8.2k" H 5470 5705 50  0000 L CNN
+F 2 "" V 5330 5750 50  0001 C CNN
+F 3 "~" H 5400 5750 50  0001 C CNN
+	1    5400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:R R?
+U 1 1 60747F98
+P 6000 5450
+F 0 "R?" V 5793 5450 50  0000 C CNN
+F 1 "27k" V 5884 5450 50  0000 C CNN
+F 2 "" V 5930 5450 50  0001 C CNN
+F 3 "~" H 6000 5450 50  0001 C CNN
+	1    6000 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 5450 5400 5450
+Wire Wire Line
+	5400 5450 5400 5050
+Wire Wire Line
+	5400 5050 5650 5050
+Wire Wire Line
+	5400 5450 5400 5600
+Connection ~ 5400 5450
+Wire Wire Line
+	6150 5450 6450 5450
+Wire Wire Line
+	6450 5450 6450 4950
+Wire Wire Line
+	6450 4950 6250 4950
+$Comp
+L power:GND #PWR?
+U 1 1 60747FA6
+P 5400 6050
+F 0 "#PWR?" H 5400 5800 50  0001 C CNN
+F 1 "GND" H 5405 5877 50  0000 C CNN
+F 2 "" H 5400 6050 50  0001 C CNN
+F 3 "" H 5400 6050 50  0001 C CNN
+	1    5400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6050 5400 5900
+$Comp
+L AR2ISS:R R?
+U 1 1 60747FAD
+P 4550 4850
+F 0 "R?" V 4343 4850 50  0000 C CNN
+F 1 "1k" V 4434 4850 50  0000 C CNN
+F 2 "" V 4480 4850 50  0001 C CNN
+F 3 "~" H 4550 4850 50  0001 C CNN
+	1    4550 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 4850 4950 4850
+Text HLabel 4000 4850 0    50   Input ~ 0
+DAC2
+Wire Wire Line
+	4000 4850 4400 4850
+$Comp
+L AR2ISS:C C?
+U 1 1 60747FB6
+P 4950 5250
+F 0 "C?" H 5065 5296 50  0000 L CNN
+F 1 "100nF" H 5065 5205 50  0000 L CNN
+F 2 "" H 4988 5100 50  0001 C CNN
+F 3 "~" H 4950 5250 50  0001 C CNN
+	1    4950 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5100 4950 4850
+Connection ~ 4950 4850
+Wire Wire Line
+	4950 4850 5650 4850
+$Comp
+L power:GND #PWR?
+U 1 1 60747FBF
+P 4950 5650
+F 0 "#PWR?" H 4950 5400 50  0001 C CNN
+F 1 "GND" H 4955 5477 50  0000 C CNN
+F 2 "" H 4950 5650 50  0001 C CNN
+F 3 "" H 4950 5650 50  0001 C CNN
+	1    4950 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5650 4950 5400
+Wire Wire Line
+	7800 4950 7650 4950
+Connection ~ 6450 4950
+Wire Wire Line
+	7800 5150 7650 5150
+Wire Wire Line
+	7650 5150 7650 5350
+Wire Wire Line
+	7650 5350 8550 5350
+Wire Wire Line
+	8550 5350 8550 5050
+Wire Wire Line
+	8550 5050 8400 5050
+$Comp
+L AR2ISS:R R?
+U 1 1 60747FD3
+P 8150 4500
+F 0 "R?" V 7943 4500 50  0000 C CNN
+F 1 "NB" V 8034 4500 50  0000 C CNN
+F 2 "" V 8080 4500 50  0001 C CNN
+F 3 "~" H 8150 4500 50  0001 C CNN
+	1    8150 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 4500 7650 4500
+Wire Wire Line
+	7650 4500 7650 4950
+Connection ~ 7650 4950
+Wire Wire Line
+	7650 4950 6450 4950
+Wire Wire Line
+	8300 4500 8800 4500
+Wire Wire Line
+	8800 4500 8800 5050
+Wire Wire Line
+	8800 5050 8550 5050
+Connection ~ 8550 5050
+Wire Wire Line
+	8800 5050 9500 5050
+Connection ~ 8800 5050
+Wire Wire Line
+	9500 5050 9500 4000
+Wire Wire Line
+	9500 4000 10100 4000
+$Comp
+L Amplifier_Operational:LM358 U?
+U 2 1 6074FCAD
+P 5950 4950
+F 0 "U?" H 5950 5317 50  0000 C CNN
+F 1 "LM358" H 5950 5226 50  0000 C CNN
+F 2 "" H 5950 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5950 4950 50  0001 C CNN
+	2    5950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 60751767
+P 1600 1750
+F 0 "U?" H 1558 1796 50  0000 L CNN
+F 1 "LM358" H 1558 1705 50  0000 L CNN
+F 2 "" H 1600 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1600 1750 50  0001 C CNN
+	3    1600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 2 1 60754E0F
+P 8100 5050
+F 0 "U?" H 8100 5417 50  0000 C CNN
+F 1 "LM358" H 8100 5326 50  0000 C CNN
+F 2 "" H 8100 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8100 5050 50  0001 C CNN
+	2    8100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 60756DD5
+P 5950 2750
+F 0 "U?" H 5950 3117 50  0000 C CNN
+F 1 "LM358" H 5950 3026 50  0000 C CNN
+F 2 "" H 5950 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5950 2750 50  0001 C CNN
+	1    5950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 60758A56
+P 2050 1750
+F 0 "U?" H 2008 1796 50  0000 L CNN
+F 1 "LM358" H 2008 1705 50  0000 L CNN
+F 2 "" H 2050 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2050 1750 50  0001 C CNN
+	3    2050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:C C?
+U 1 1 6075C033
+P 2400 1750
+F 0 "C?" H 2515 1796 50  0000 L CNN
+F 1 "100nF" H 2515 1705 50  0000 L CNN
+F 2 "" H 2438 1600 50  0001 C CNN
+F 3 "~" H 2400 1750 50  0001 C CNN
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AR2ISS:C C?
+U 1 1 6075C598
+P 2900 1750
+F 0 "C?" H 3015 1796 50  0000 L CNN
+F 1 "100nF" H 3015 1705 50  0000 L CNN
+F 2 "" H 2938 1600 50  0001 C CNN
+F 3 "~" H 2900 1750 50  0001 C CNN
+	1    2900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6076297A
+P 1500 2300
+F 0 "#PWR?" H 1500 2050 50  0001 C CNN
+F 1 "GND" H 1505 2127 50  0000 C CNN
+F 2 "" H 1500 2300 50  0001 C CNN
+F 3 "" H 1500 2300 50  0001 C CNN
+	1    1500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 607639CE
+P 1500 1100
+F 0 "#PWR?" H 1500 950 50  0001 C CNN
+F 1 "+12V" H 1515 1273 50  0000 C CNN
+F 2 "" H 1500 1100 50  0001 C CNN
+F 3 "" H 1500 1100 50  0001 C CNN
+	1    1500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1450 1500 1250
+Wire Wire Line
+	1500 2300 1500 2150
+Wire Wire Line
+	1500 2150 1950 2150
+Wire Wire Line
+	1950 2150 1950 2050
+Connection ~ 1500 2150
+Wire Wire Line
+	1500 2150 1500 2050
+Wire Wire Line
+	1950 2150 2400 2150
+Wire Wire Line
+	2400 2150 2400 1900
+Connection ~ 1950 2150
+Wire Wire Line
+	2400 2150 2900 2150
+Wire Wire Line
+	2900 2150 2900 1900
+Connection ~ 2400 2150
+Wire Wire Line
+	2900 1600 2900 1250
+Wire Wire Line
+	2900 1250 2400 1250
+Connection ~ 1500 1250
+Wire Wire Line
+	1500 1250 1500 1100
+Wire Wire Line
+	1950 1450 1950 1250
+Connection ~ 1950 1250
+Wire Wire Line
+	1950 1250 1500 1250
+Wire Wire Line
+	2400 1600 2400 1250
+Connection ~ 2400 1250
+Wire Wire Line
+	2400 1250 1950 1250
+$EndSCHEMATC
