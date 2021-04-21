@@ -1,0 +1,111 @@
+04-21 21:45:53 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'win32'
+04-21 21:45:53 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+04-21 21:45:53 save_restore_layout.action_save_restore_layout 162:KiCad build version: (5.1.9)-1
+04-21 21:45:53 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
+04-21 21:45:54 save_restore_layout.action_save_restore_layout 274:Restore layout chosen
+04-21 21:45:57 save_restore_layout.save_restore_layout 393:Getting board info
+04-21 21:45:57 save_restore_layout.save_restore_layout 395:Getting schematics info
+04-21 21:45:57 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
+04-21 21:45:57 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
+{u'60A1CD53': [u'CAN', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\CAN.sch'], u'60727BD1': [u'RS485Tranceiver1', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'60797D2F': [u'RS485Tranceiver4', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'607A6028': [u'Relay', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\Relay.sch'], u'60A2B663': [u'IOExpander', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\IOExpander.sch'], u'60B18BF8': [u'SDCard', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\SDCard.sch'], u'60A2EE09': [u'PowerSupply', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\PowerSupply.sch'], u'607938CE': [u'RS485Tranceiver2', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'609FB88E': [u'RS232Filter', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS422Filter.sch'], u'60ADEB0F': [u'DOut', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\DOut.sch'], u'608DA584': [u'RS422', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS422.sch'], u'60ADF1EF': [u'sheet60ADF1E9', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\IOExpander.sch'], u'60795F15': [u'RS485Tranceiver3', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'607BA83E': [u'MESAOut', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\MESAOut.sch'], u'60A2B6F2': [u'LCD', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\LCD.sch'], u'60AEFCAF': [u'Controller', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\Controller.sch'], u'6089ADE2': [u'RS232', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS232.sch'], u'60A2BC9C': [u'IOExpander2', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\IOExpander.sch'], u'6073A04D': [u'AOut', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\AOut.sch'], u'6069F05D': [u'ADIn', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\ADIn.sch']}
+04-21 21:45:57 save_restore_layout.save_restore_layout 397:Getting layout info
+04-21 21:45:57 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+04-21 21:45:57 save_restore_layout.save_restore_layout 399:Updating layout info with schematics info
+04-21 21:45:57 save_restore_layout.save_restore_layout 739:Loading saved design
+04-21 21:45:57 save_restore_layout.save_restore_layout 746:Source level is:[u'RS422.sch', u'RS485Tranceiver.sch']
+04-21 21:45:57 save_restore_layout.save_restore_layout 753:Destination footprint is:u'U4'
+04-21 21:45:57 save_restore_layout.save_restore_layout 754:Destination levels available are:[u'RS422.sch', u'RS485Tranceiver.sch']
+04-21 21:45:57 save_restore_layout.save_restore_layout 765:Destination level is:[u'RS422.sch', u'RS485Tranceiver.sch']
+04-21 21:45:57 save_restore_layout.save_restore_layout 770:All sch files required are: [u'RS485Tranceiver.sch']
+04-21 21:45:57 save_restore_layout.save_restore_layout 772:Getting current schematics hash
+04-21 21:45:57 save_restore_layout.save_restore_layout 782:Source hash is:'2652a943bd2620537d1eac920ee77ab9'
+04-21 21:45:57 save_restore_layout.save_restore_layout 783:Destination hash is: '2652a943bd2620537d1eac920ee77ab9'
+04-21 21:45:57 save_restore_layout.save_restore_layout 800:Get layout data from saved board
+04-21 21:45:57 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+04-21 21:45:57 save_restore_layout.save_restore_layout 504:Replicating footprints
+04-21 21:45:57 save_restore_layout.save_restore_layout 607:Replicating tracks
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 32, u'Net-(C28-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 84, u'Net-(J12-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 84, u'Net-(J12-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 84, u'Net-(J12-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 389, u'/RS422/PTT1'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 389, u'/RS422/PTT1'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 33, u'Net-(C29-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 33, u'Net-(C29-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 33, u'Net-(C29-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 33, u'Net-(C29-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 33, u'Net-(C29-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 33, u'Net-(C29-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 33, u'Net-(C29-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 34, u'Net-(C30-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 34, u'Net-(C30-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 35, u'Net-(C31-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 35, u'Net-(C31-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 76, u'Net-(D27-Pad2)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 77, u'Net-(D27-Pad1)'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 155, u'/RS422/RS485Tranceiver3/B_in'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 198, u'/RS422/RS485Tranceiver3/DE1'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 198, u'/RS422/RS485Tranceiver3/DE1'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 198, u'/RS422/RS485Tranceiver3/DE1'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 198, u'/RS422/RS485Tranceiver3/DE1'
+04-21 21:45:57 save_restore_layout.save_restore_layout 643:Setting track net to: 198, u'/RS422/RS485Tranceiver3/DE1'
+04-21 21:45:57 save_restore_layout.save_restore_layout 649:Replicating zones
+04-21 21:45:57 save_restore_layout.save_restore_layout 703:Replicating text
+04-21 21:45:57 save_restore_layout.save_restore_layout 720:Replicating drawings

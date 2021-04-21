@@ -1,0 +1,8 @@
+04-21 21:47:30 place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
+04-21 21:47:30 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+04-21 21:47:30 place_footprints.action_place_footprints 416:KiCad build version: (5.1.9)-1
+04-21 21:47:30 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+04-21 21:47:33 place_footprints.place_footprints 213:getting project hierarchy from schematics
+04-21 21:47:33 place_footprints.place_footprints 228:getting a list of all footprints on board
+04-21 21:47:34 place_footprints.place_footprints 254:construcing a list of sheets suitable for replication on level:u'RS485Tranceiver3', file:u'RS485Tranceiver.sch'
+04-21 21:47:34 place_footprints.place_footprints 287:suitable sheets are:[[u'RS422', u'RS485Tranceiver1'], [u'RS422', u'RS485Tranceiver2'], [u'RS422', u'RS485Tranceiver4']]

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 19
+Sheet 2 21
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:BC846 Q?
+L Transistor_BJT:BC846 Q1
 U 1 1 607AAC4D
 P 2400 2650
-F 0 "Q?" H 2591 2696 50  0000 L CNN
+F 0 "Q1" H 2591 2696 50  0000 L CNN
 F 1 "BC846" H 2591 2605 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 2575 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 2400 2650 50  0001 L CNN
@@ -25,10 +25,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 2400 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:FINDER-34.51 K?
+L Relay:FINDER-34.51 K1
 U 1 1 607AF9F0
 P 2700 1850
-F 0 "K?" H 3130 1896 50  0000 L CNN
+F 0 "K1" H 3130 1896 50  0000 L CNN
 F 1 "FINDER-34.51" H 3130 1805 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 3840 1810 50  0001 C CNN
 F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 2700 1850 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L Diode:1N4148WS D3
 U 1 1 607B0001
 P 2050 1850
-F 0 "D?" V 2004 1770 50  0000 R CNN
+F 0 "D3" V 2004 1770 50  0000 R CNN
 F 1 "1N4148WS" H 2200 1950 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 2050 1675 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 2050 1850 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 2050 1850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 607B0D41
 P 2500 2950
-F 0 "#PWR?" H 2500 2700 50  0001 C CNN
+F 0 "#PWR05" H 2500 2700 50  0001 C CNN
 F 1 "GND" H 2505 2777 50  0000 C CNN
 F 2 "" H 2500 2950 50  0001 C CNN
 F 3 "" H 2500 2950 50  0001 C CNN
@@ -65,12 +65,12 @@ Connection ~ 2500 2300
 Wire Wire Line
 	2500 2300 2500 2450
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R6
 U 1 1 607B14CA
 P 1700 2650
-F 0 "R?" V 1493 2650 50  0000 C CNN
+F 0 "R6" V 1493 2650 50  0000 C CNN
 F 1 "1k" V 1584 2650 50  0000 C CNN
-F 2 "" V 1630 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 2650 50  0001 C CNN
 F 3 "~" H 1700 2650 50  0001 C CNN
 	1    1700 2650
 	0    1    1    0   
@@ -89,20 +89,16 @@ REL1
 Wire Wire Line
 	1550 2650 1150 2650
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR04
 U 1 1 607B2738
 P 2500 1050
-F 0 "#PWR?" H 2500 900 50  0001 C CNN
+F 0 "#PWR04" H 2500 900 50  0001 C CNN
 F 1 "+12V" H 2515 1223 50  0000 C CNN
 F 2 "" H 2500 1050 50  0001 C CNN
 F 3 "" H 2500 1050 50  0001 C CNN
 	1    2500 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 1950 3700 1950
-Wire Wire Line
-	3700 1950 3700 2250
 Wire Wire Line
 	3700 2250 2900 2250
 Wire Wire Line
@@ -112,35 +108,27 @@ Wire Wire Line
 Wire Wire Line
 	3000 1450 3950 1450
 Wire Wire Line
-	3950 1450 3950 1850
-Wire Wire Line
-	3950 1850 4200 1850
-Wire Wire Line
 	2800 1550 2800 1350
 Wire Wire Line
 	2800 1350 3850 1350
-Wire Wire Line
-	3850 1350 3850 2050
-Wire Wire Line
-	3850 2050 4200 2050
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 607B4661
 P 1600 2000
-F 0 "D?" V 1639 2080 50  0000 L CNN
+F 0 "D1" V 1639 2080 50  0000 L CNN
 F 1 "LED" V 1548 2080 50  0000 L CNN
-F 2 "" H 1600 2000 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1600 2000 50  0001 C CNN
 F 3 "~" H 1600 2000 50  0001 C CNN
 	1    1600 2000
 	0    1    -1   0   
 $EndComp
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R4
 U 1 1 607B56B3
 P 1600 1600
-F 0 "R?" H 1670 1646 50  0000 L CNN
+F 0 "R4" H 1670 1646 50  0000 L CNN
 F 1 "820" H 1670 1555 50  0000 L CNN
-F 2 "" V 1530 1600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 1600 50  0001 C CNN
 F 3 "~" H 1600 1600 50  0001 C CNN
 	1    1600 1600
 	1    0    0    -1  
@@ -170,10 +158,10 @@ REL3
 Text HLabel 6150 5350 0    50   Input ~ 0
 REL4
 $Comp
-L Transistor_BJT:BC846 Q?
+L Transistor_BJT:BC846 Q2
 U 1 1 60AB4FCD
 P 2400 5350
-F 0 "Q?" H 2591 5396 50  0000 L CNN
+F 0 "Q2" H 2591 5396 50  0000 L CNN
 F 1 "BC846" H 2591 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 5275 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 2400 5350 50  0001 L CNN
@@ -181,10 +169,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 2400 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:FINDER-34.51 K?
+L Relay:FINDER-34.51 K2
 U 1 1 60AB4FD3
 P 2700 4550
-F 0 "K?" H 3130 4596 50  0000 L CNN
+F 0 "K2" H 3130 4596 50  0000 L CNN
 F 1 "FINDER-34.51" H 3130 4505 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 3840 4510 50  0001 C CNN
 F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 2700 4550 50  0001 C CNN
@@ -192,10 +180,10 @@ F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L Diode:1N4148WS D4
 U 1 1 60AB4FD9
 P 2050 4550
-F 0 "D?" V 2004 4470 50  0000 R CNN
+F 0 "D4" V 2004 4470 50  0000 R CNN
 F 1 "1N4148WS" H 2200 4650 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 2050 4375 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 2050 4550 50  0001 C CNN
@@ -203,10 +191,10 @@ F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 2050 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 60AB4FDF
 P 2500 5650
-F 0 "#PWR?" H 2500 5400 50  0001 C CNN
+F 0 "#PWR07" H 2500 5400 50  0001 C CNN
 F 1 "GND" H 2505 5477 50  0000 C CNN
 F 2 "" H 2500 5650 50  0001 C CNN
 F 3 "" H 2500 5650 50  0001 C CNN
@@ -221,12 +209,12 @@ Connection ~ 2500 5000
 Wire Wire Line
 	2500 5000 2500 5150
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R7
 U 1 1 60AB4FE9
 P 1700 5350
-F 0 "R?" V 1493 5350 50  0000 C CNN
+F 0 "R7" V 1493 5350 50  0000 C CNN
 F 1 "1k" V 1584 5350 50  0000 C CNN
-F 2 "" V 1630 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 5350 50  0001 C CNN
 F 3 "~" H 1700 5350 50  0001 C CNN
 	1    1700 5350
 	0    1    1    0   
@@ -243,20 +231,16 @@ Wire Wire Line
 Wire Wire Line
 	1550 5350 1150 5350
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR06
 U 1 1 60AB4FF6
 P 2500 3750
-F 0 "#PWR?" H 2500 3600 50  0001 C CNN
+F 0 "#PWR06" H 2500 3600 50  0001 C CNN
 F 1 "+12V" H 2515 3923 50  0000 C CNN
 F 2 "" H 2500 3750 50  0001 C CNN
 F 3 "" H 2500 3750 50  0001 C CNN
 	1    2500 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 4650 3700 4650
-Wire Wire Line
-	3700 4650 3700 4950
 Wire Wire Line
 	3700 4950 2900 4950
 Wire Wire Line
@@ -266,35 +250,27 @@ Wire Wire Line
 Wire Wire Line
 	3000 4150 3950 4150
 Wire Wire Line
-	3950 4150 3950 4550
-Wire Wire Line
-	3950 4550 4200 4550
-Wire Wire Line
 	2800 4250 2800 4050
 Wire Wire Line
 	2800 4050 3850 4050
-Wire Wire Line
-	3850 4050 3850 4750
-Wire Wire Line
-	3850 4750 4200 4750
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 60AB500E
 P 1600 4700
-F 0 "D?" V 1639 4780 50  0000 L CNN
+F 0 "D2" V 1639 4780 50  0000 L CNN
 F 1 "LED" V 1548 4780 50  0000 L CNN
-F 2 "" H 1600 4700 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1600 4700 50  0001 C CNN
 F 3 "~" H 1600 4700 50  0001 C CNN
 	1    1600 4700
 	0    1    -1   0   
 $EndComp
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R5
 U 1 1 60AB5014
 P 1600 4300
-F 0 "R?" H 1670 4346 50  0000 L CNN
+F 0 "R5" H 1670 4346 50  0000 L CNN
 F 1 "820" H 1670 4255 50  0000 L CNN
-F 2 "" V 1530 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 4300 50  0001 C CNN
 F 3 "~" H 1600 4300 50  0001 C CNN
 	1    1600 4300
 	1    0    0    -1  
@@ -318,10 +294,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 4050 2050 4050
 $Comp
-L Transistor_BJT:BC846 Q?
+L Transistor_BJT:BC846 Q3
 U 1 1 60ABF675
 P 7400 2650
-F 0 "Q?" H 7591 2696 50  0000 L CNN
+F 0 "Q3" H 7591 2696 50  0000 L CNN
 F 1 "BC846" H 7591 2605 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 2575 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 7400 2650 50  0001 L CNN
@@ -329,10 +305,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 7400 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:FINDER-34.51 K?
+L Relay:FINDER-34.51 K3
 U 1 1 60ABF67B
 P 7700 1850
-F 0 "K?" H 8130 1896 50  0000 L CNN
+F 0 "K3" H 8130 1896 50  0000 L CNN
 F 1 "FINDER-34.51" H 8130 1805 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 8840 1810 50  0001 C CNN
 F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 7700 1850 50  0001 C CNN
@@ -340,10 +316,10 @@ F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L Diode:1N4148WS D7
 U 1 1 60ABF681
 P 7050 1850
-F 0 "D?" V 7004 1770 50  0000 R CNN
+F 0 "D7" V 7004 1770 50  0000 R CNN
 F 1 "1N4148WS" H 7200 1950 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 7050 1675 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 7050 1850 50  0001 C CNN
@@ -351,10 +327,10 @@ F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 7050 1850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 60ABF687
 P 7500 2950
-F 0 "#PWR?" H 7500 2700 50  0001 C CNN
+F 0 "#PWR09" H 7500 2700 50  0001 C CNN
 F 1 "GND" H 7505 2777 50  0000 C CNN
 F 2 "" H 7500 2950 50  0001 C CNN
 F 3 "" H 7500 2950 50  0001 C CNN
@@ -369,12 +345,12 @@ Connection ~ 7500 2300
 Wire Wire Line
 	7500 2300 7500 2450
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R10
 U 1 1 60ABF691
 P 6700 2650
-F 0 "R?" V 6493 2650 50  0000 C CNN
+F 0 "R10" V 6493 2650 50  0000 C CNN
 F 1 "1k" V 6584 2650 50  0000 C CNN
-F 2 "" V 6630 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 2650 50  0001 C CNN
 F 3 "~" H 6700 2650 50  0001 C CNN
 	1    6700 2650
 	0    1    1    0   
@@ -391,20 +367,16 @@ Wire Wire Line
 Wire Wire Line
 	6550 2650 6150 2650
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR08
 U 1 1 60ABF69E
 P 7500 1050
-F 0 "#PWR?" H 7500 900 50  0001 C CNN
+F 0 "#PWR08" H 7500 900 50  0001 C CNN
 F 1 "+12V" H 7515 1223 50  0000 C CNN
 F 2 "" H 7500 1050 50  0001 C CNN
 F 3 "" H 7500 1050 50  0001 C CNN
 	1    7500 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 1950 8700 1950
-Wire Wire Line
-	8700 1950 8700 2250
 Wire Wire Line
 	8700 2250 7900 2250
 Wire Wire Line
@@ -414,35 +386,27 @@ Wire Wire Line
 Wire Wire Line
 	8000 1450 8950 1450
 Wire Wire Line
-	8950 1450 8950 1850
-Wire Wire Line
-	8950 1850 9200 1850
-Wire Wire Line
 	7800 1550 7800 1350
 Wire Wire Line
 	7800 1350 8850 1350
-Wire Wire Line
-	8850 1350 8850 2050
-Wire Wire Line
-	8850 2050 9200 2050
 $Comp
-L Device:LED D?
+L Device:LED D5
 U 1 1 60ABF6B6
 P 6600 2000
-F 0 "D?" V 6639 2080 50  0000 L CNN
+F 0 "D5" V 6639 2080 50  0000 L CNN
 F 1 "LED" V 6548 2080 50  0000 L CNN
-F 2 "" H 6600 2000 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6600 2000 50  0001 C CNN
 F 3 "~" H 6600 2000 50  0001 C CNN
 	1    6600 2000
 	0    1    -1   0   
 $EndComp
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R8
 U 1 1 60ABF6BC
 P 6600 1600
-F 0 "R?" H 6670 1646 50  0000 L CNN
+F 0 "R8" H 6670 1646 50  0000 L CNN
 F 1 "820" H 6670 1555 50  0000 L CNN
-F 2 "" V 6530 1600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 1600 50  0001 C CNN
 F 3 "~" H 6600 1600 50  0001 C CNN
 	1    6600 1600
 	1    0    0    -1  
@@ -466,10 +430,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 1350 7050 1350
 $Comp
-L Transistor_BJT:BC846 Q?
+L Transistor_BJT:BC846 Q4
 U 1 1 60ABF6CC
 P 7400 5350
-F 0 "Q?" H 7591 5396 50  0000 L CNN
+F 0 "Q4" H 7591 5396 50  0000 L CNN
 F 1 "BC846" H 7591 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 5275 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 7400 5350 50  0001 L CNN
@@ -477,10 +441,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 7400 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:FINDER-34.51 K?
+L Relay:FINDER-34.51 K4
 U 1 1 60ABF6D2
 P 7700 4550
-F 0 "K?" H 8130 4596 50  0000 L CNN
+F 0 "K4" H 8130 4596 50  0000 L CNN
 F 1 "FINDER-34.51" H 8130 4505 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 8840 4510 50  0001 C CNN
 F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 7700 4550 50  0001 C CNN
@@ -488,10 +452,10 @@ F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L Diode:1N4148WS D8
 U 1 1 60ABF6D8
 P 7050 4550
-F 0 "D?" V 7004 4470 50  0000 R CNN
+F 0 "D8" V 7004 4470 50  0000 R CNN
 F 1 "1N4148WS" H 7200 4650 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 7050 4375 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 7050 4550 50  0001 C CNN
@@ -499,10 +463,10 @@ F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 7050 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 60ABF6DE
 P 7500 5650
-F 0 "#PWR?" H 7500 5400 50  0001 C CNN
+F 0 "#PWR011" H 7500 5400 50  0001 C CNN
 F 1 "GND" H 7505 5477 50  0000 C CNN
 F 2 "" H 7500 5650 50  0001 C CNN
 F 3 "" H 7500 5650 50  0001 C CNN
@@ -517,12 +481,12 @@ Connection ~ 7500 5000
 Wire Wire Line
 	7500 5000 7500 5150
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R11
 U 1 1 60ABF6E8
 P 6700 5350
-F 0 "R?" V 6493 5350 50  0000 C CNN
+F 0 "R11" V 6493 5350 50  0000 C CNN
 F 1 "1k" V 6584 5350 50  0000 C CNN
-F 2 "" V 6630 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 5350 50  0001 C CNN
 F 3 "~" H 6700 5350 50  0001 C CNN
 	1    6700 5350
 	0    1    1    0   
@@ -539,20 +503,16 @@ Wire Wire Line
 Wire Wire Line
 	6550 5350 6150 5350
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR010
 U 1 1 60ABF6F5
 P 7500 3750
-F 0 "#PWR?" H 7500 3600 50  0001 C CNN
+F 0 "#PWR010" H 7500 3600 50  0001 C CNN
 F 1 "+12V" H 7515 3923 50  0000 C CNN
 F 2 "" H 7500 3750 50  0001 C CNN
 F 3 "" H 7500 3750 50  0001 C CNN
 	1    7500 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 4650 8700 4650
-Wire Wire Line
-	8700 4650 8700 4950
 Wire Wire Line
 	8700 4950 7900 4950
 Wire Wire Line
@@ -562,35 +522,27 @@ Wire Wire Line
 Wire Wire Line
 	8000 4150 8950 4150
 Wire Wire Line
-	8950 4150 8950 4550
-Wire Wire Line
-	8950 4550 9200 4550
-Wire Wire Line
 	7800 4250 7800 4050
 Wire Wire Line
 	7800 4050 8850 4050
-Wire Wire Line
-	8850 4050 8850 4750
-Wire Wire Line
-	8850 4750 9200 4750
 $Comp
-L Device:LED D?
+L Device:LED D6
 U 1 1 60ABF70D
 P 6600 4700
-F 0 "D?" V 6639 4780 50  0000 L CNN
+F 0 "D6" V 6639 4780 50  0000 L CNN
 F 1 "LED" V 6548 4780 50  0000 L CNN
-F 2 "" H 6600 4700 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6600 4700 50  0001 C CNN
 F 3 "~" H 6600 4700 50  0001 C CNN
 	1    6600 4700
 	0    1    -1   0   
 $EndComp
 $Comp
-L AR2ISS:R R?
+L AR2ISS:R R9
 U 1 1 60ABF713
 P 6600 4300
-F 0 "R?" H 6670 4346 50  0000 L CNN
+F 0 "R9" H 6670 4346 50  0000 L CNN
 F 1 "820" H 6670 4255 50  0000 L CNN
-F 2 "" V 6530 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 4300 50  0001 C CNN
 F 3 "~" H 6600 4300 50  0001 C CNN
 	1    6600 4300
 	1    0    0    -1  
@@ -614,47 +566,73 @@ Wire Wire Line
 Wire Wire Line
 	6600 4050 7050 4050
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60AD7074
-P 4400 1950
-F 0 "J?" H 4480 1992 50  0000 L CNN
-F 1 "Conn_01x03" H 4480 1901 50  0000 L CNN
-F 2 "" H 4400 1950 50  0001 C CNN
-F 3 "~" H 4400 1950 50  0001 C CNN
-	1    4400 1950
+L Connector_Generic:Conn_01x06 J1
+U 1 1 60905014
+P 4900 3250
+F 0 "J1" H 4980 3242 50  0000 L CNN
+F 1 "Conn_01x06" H 4980 3151 50  0000 L CNN
+F 2 "AR2ISS:250-206" H 4900 3250 50  0001 C CNN
+F 3 "~" H 4900 3250 50  0001 C CNN
+	1    4900 3250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4700 3150 3700 3150
+Wire Wire Line
+	3700 3150 3700 2250
+Wire Wire Line
+	4700 3050 3950 3050
+Wire Wire Line
+	4700 3250 3850 3250
+Wire Wire Line
+	4700 3450 3700 3450
+Wire Wire Line
+	4700 3350 3950 3350
+Wire Wire Line
+	3950 3350 3950 4150
+Wire Wire Line
+	4700 3550 3850 3550
+Wire Wire Line
+	3850 3550 3850 4050
+Wire Wire Line
+	3850 1350 3850 3250
+Wire Wire Line
+	3950 1450 3950 3050
+Wire Wire Line
+	3700 3450 3700 4950
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60AD77B2
-P 4400 4650
-F 0 "J?" H 4480 4692 50  0000 L CNN
-F 1 "Conn_01x03" H 4480 4601 50  0000 L CNN
-F 2 "" H 4400 4650 50  0001 C CNN
-F 3 "~" H 4400 4650 50  0001 C CNN
-	1    4400 4650
+L Connector_Generic:Conn_01x06 J2
+U 1 1 6091E0B4
+P 9900 3250
+F 0 "J2" H 9980 3242 50  0000 L CNN
+F 1 "Conn_01x06" H 9980 3151 50  0000 L CNN
+F 2 "AR2ISS:250-206" H 9900 3250 50  0001 C CNN
+F 3 "~" H 9900 3250 50  0001 C CNN
+	1    9900 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60AD820C
-P 9400 4650
-F 0 "J?" H 9480 4692 50  0000 L CNN
-F 1 "Conn_01x03" H 9480 4601 50  0000 L CNN
-F 2 "" H 9400 4650 50  0001 C CNN
-F 3 "~" H 9400 4650 50  0001 C CNN
-	1    9400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60AD8E95
-P 9400 1950
-F 0 "J?" H 9480 1992 50  0000 L CNN
-F 1 "Conn_01x03" H 9480 1901 50  0000 L CNN
-F 2 "" H 9400 1950 50  0001 C CNN
-F 3 "~" H 9400 1950 50  0001 C CNN
-	1    9400 1950
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	9700 3150 8700 3150
+Wire Wire Line
+	9700 3050 8950 3050
+Wire Wire Line
+	9700 3250 8850 3250
+Wire Wire Line
+	9700 3450 8700 3450
+Wire Wire Line
+	9700 3350 8950 3350
+Wire Wire Line
+	8950 3350 8950 4150
+Wire Wire Line
+	9700 3550 8850 3550
+Wire Wire Line
+	8850 3550 8850 4050
+Wire Wire Line
+	8950 1450 8950 3050
+Wire Wire Line
+	8850 1350 8850 3250
+Wire Wire Line
+	8700 3150 8700 2250
+Wire Wire Line
+	8700 3450 8700 4950
 $EndSCHEMATC
