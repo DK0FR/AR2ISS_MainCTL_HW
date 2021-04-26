@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 21
+Sheet 2 22
 Title ""
 Date ""
 Rev ""
@@ -520,11 +520,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 4250 8000 4150
 Wire Wire Line
-	8000 4150 8950 4150
+	8000 4150 8850 4150
 Wire Wire Line
 	7800 4250 7800 4050
-Wire Wire Line
-	7800 4050 8850 4050
 $Comp
 L Device:LED D6
 U 1 1 60ABF70D
@@ -581,23 +579,9 @@ Wire Wire Line
 Wire Wire Line
 	3700 3150 3700 2250
 Wire Wire Line
-	4700 3050 3950 3050
-Wire Wire Line
-	4700 3250 3850 3250
-Wire Wire Line
 	4700 3450 3700 3450
 Wire Wire Line
-	4700 3350 3950 3350
-Wire Wire Line
-	3950 3350 3950 4150
-Wire Wire Line
-	4700 3550 3850 3550
-Wire Wire Line
-	3850 3550 3850 4050
-Wire Wire Line
-	3850 1350 3850 3250
-Wire Wire Line
-	3950 1450 3950 3050
+	3850 1350 3850 3050
 Wire Wire Line
 	3700 3450 3700 4950
 $Comp
@@ -614,25 +598,41 @@ $EndComp
 Wire Wire Line
 	9700 3150 8700 3150
 Wire Wire Line
-	9700 3050 8950 3050
-Wire Wire Line
-	9700 3250 8850 3250
-Wire Wire Line
-	9700 3450 8700 3450
-Wire Wire Line
-	9700 3350 8950 3350
-Wire Wire Line
-	8950 3350 8950 4150
-Wire Wire Line
-	9700 3550 8850 3550
-Wire Wire Line
-	8850 3550 8850 4050
-Wire Wire Line
-	8950 1450 8950 3050
-Wire Wire Line
-	8850 1350 8850 3250
+	8850 1350 8850 3050
 Wire Wire Line
 	8700 3150 8700 2250
 Wire Wire Line
+	9700 3450 8700 3450
+Wire Wire Line
 	8700 3450 8700 4950
+Wire Wire Line
+	8850 3550 8850 4150
+Wire Wire Line
+	8850 3550 9700 3550
+Wire Wire Line
+	9700 3350 8600 3350
+Wire Wire Line
+	8600 3350 8600 4050
+Wire Wire Line
+	8600 4050 7800 4050
+Wire Wire Line
+	8950 3250 9700 3250
+Wire Wire Line
+	8950 1450 8950 3250
+Wire Wire Line
+	9700 3050 8850 3050
+Wire Wire Line
+	4700 3550 3950 3550
+Wire Wire Line
+	3950 3550 3950 4150
+Wire Wire Line
+	4700 3350 3850 3350
+Wire Wire Line
+	3850 3350 3850 4050
+Wire Wire Line
+	3950 3250 4700 3250
+Wire Wire Line
+	3950 1450 3950 3250
+Wire Wire Line
+	4700 3050 3850 3050
 $EndSCHEMATC

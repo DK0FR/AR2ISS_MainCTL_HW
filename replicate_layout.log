@@ -1,1 +1,80 @@
-04-21 23:32:57 replicate_layout.action_replicate_layout 252:User canceled the dialog
+04-24 02:57:55 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+04-24 02:57:55 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+04-24 02:57:55 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.9)-1
+04-24 02:57:55 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
+04-24 02:57:55 replicate_layout.action_replicate_layout 340:Preparing replicator with J9 as a reference
+04-24 02:57:55 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+04-24 02:57:55 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'60A1CD53': [u'CAN', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\CAN.sch'], u'60727BD1': [u'RS485Tranceiver1', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'60797D2F': [u'RS485Tranceiver4', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'60A2B663': [u'IOExpander', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\IOExpander.sch'], u'607A6028': [u'Relay', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\Relay.sch'], u'60B18BF8': [u'SDCard', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\SDCard.sch'], u'60A2EE09': [u'PowerSupply', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\PowerSupply.sch'], u'607938CE': [u'RS485Tranceiver2', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'609FB88E': [u'RS232Filter_1', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS422Filter.sch'], u'60ADEB0F': [u'DOut', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\DOut.sch'], u'608DA584': [u'RS422', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS422.sch'], u'60ADF1EF': [u'sheet60ADF1E9', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\IOExpander.sch'], u'60795F15': [u'RS485Tranceiver3', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS485Tranceiver.sch'], u'607BA83E': [u'MESAOut', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\MESAOut.sch'], u'60A2B6F2': [u'LCD', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\LCD.sch'], u'60AEFCAF': [u'Controller', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\Controller.sch'], u'6089ADE2': [u'RS232', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS232.sch'], u'60A2BC9C': [u'IOExpander2', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\IOExpander.sch'], u'6073A04D': [u'AOut', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\AOut.sch'], u'6069F05D': [u'ADIn', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\ADIn.sch'], u'608DD62D': [u'sheet608DD623', u'D:\\Elektronik\\Funktechnik\\AR2ISS\\AR2ISS_MainCTL_HW\\RS422Filter.sch']}
+04-24 02:57:55 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+04-24 02:57:55 replicate_layout.action_replicate_layout 367:source anchor footprint is u'J9'
+Located on:[u'RS232', u'RS232Filter_1']
+With filenames:[u'RS232.sch', u'RS422Filter.sch']
+With sheet_id:[u'RS232', u'RS232Filter_1']
+04-24 02:57:55 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'J3', [u'RS232', u'sheet608DD623']), (u'J9', [u'RS232', u'RS232Filter_1'])]
+04-24 02:57:55 replicate_layout.action_replicate_layout 384:Showing dialog
+04-24 02:57:55 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-8, -8)
+04-24 02:57:55 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(-1920, 489, 1920, 1080)
+04-24 02:57:55 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(0, 0, 1920, 1080)
+04-24 02:57:55 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1666, 114)
+04-24 02:57:55 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1353, 114)
+04-24 02:58:00 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'RS232Filter_1', file:u'RS422Filter.sch'
+04-24 02:58:00 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'RS232', u'RS232Filter_1']
+04-24 02:58:00 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'J3', u'J9']
+04-24 02:58:00 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/6089ADE2/608DD62D/609E64E5', u'/6089ADE2/609FB88E/609E64E5']
+04-24 02:58:00 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'RS232', u'sheet608DD623'], [u'RS232', u'RS232Filter_1']]
+04-24 02:58:00 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'RS232', u'RS232Filter_1'], [u'RS232', u'sheet608DD623']]
+04-24 02:58:00 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'RS232', u'sheet608DD623']]
+04-24 02:58:05 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'RS232Filter_1', file:u'RS422Filter.sch'
+04-24 02:58:05 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'RS232', u'RS232Filter_1']
+04-24 02:58:05 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'J3', u'J9']
+04-24 02:58:05 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/6089ADE2/608DD62D/609E64E5', u'/6089ADE2/609FB88E/609E64E5']
+04-24 02:58:05 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'RS232', u'sheet608DD623'], [u'RS232', u'RS232Filter_1']]
+04-24 02:58:05 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'RS232', u'RS232Filter_1'], [u'RS232', u'sheet608DD623']]
+04-24 02:58:05 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'RS232', u'sheet608DD623']]
+04-24 02:58:05 replicate_layout.action_replicate_layout 179:Replicating layout
+04-24 02:58:05 replicate_layout.replicatelayout 994:Starting replication of sheets: [[u'RS232', u'sheet608DD623']]
+on level: [u'RS232', u'RS232Filter_1']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+04-24 02:58:05 root 261:updating GUI message: 'Preparing for replication'
+04-24 02:58:05 root 266:updating GUI with: 0
+04-24 02:58:05 replicate_layout.replicatelayout 556:Getting the list of source footprints
+04-24 02:58:05 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+04-24 02:58:05 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+04-24 02:58:06 replicate_layout.replicatelayout 568:Getting source bounding box
+04-24 02:58:06 root 266:updating GUI with: 37
+04-24 02:58:06 replicate_layout.replicatelayout 572:Getting source tracks
+04-24 02:58:06 replicate_layout.replicatelayout 576:Getting source zones
+04-24 02:58:06 root 266:updating GUI with: 62
+04-24 02:58:06 replicate_layout.replicatelayout 580:Getting source text items
+04-24 02:58:06 replicate_layout.replicatelayout 584:Getting source text items
+04-24 02:58:06 root 261:updating GUI message: 'Replicating footprints'
+04-24 02:58:06 replicate_layout.replicatelayout 590:Replicating footprints
+04-24 02:58:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'RS232', u'sheet608DD623']
+04-24 02:58:06 root 266:updating GUI with: 72
+04-24 02:58:06 root 261:updating GUI message: 'Replicating tracks'
+04-24 02:58:06 replicate_layout.replicatelayout 720:Replicating tracks
+04-24 02:58:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'RS232', u'sheet608DD623']
+04-24 02:58:06 root 266:updating GUI with: 2
+04-24 02:58:06 root 261:updating GUI message: 'Replicating zones'
+04-24 02:58:06 replicate_layout.replicatelayout 771:Replicating zones
+04-24 02:58:06 replicate_layout.replicatelayout 778:Replicating zones on sheet [u'RS232', u'sheet608DD623']
+04-24 02:58:06 root 261:updating GUI message: 'Replicating text'
+04-24 02:58:06 root 266:updating GUI with: 0
+04-24 02:58:06 replicate_layout.replicatelayout 837:Replicating text
+04-24 02:58:06 replicate_layout.replicatelayout 844:Replicating text on sheet [u'RS232', u'sheet608DD623']
+04-24 02:58:06 root 261:updating GUI message: 'Replicating drawings'
+04-24 02:58:06 replicate_layout.replicatelayout 868:Replicating drawings
+04-24 02:58:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'RS232', u'sheet608DD623']
+04-24 02:58:06 replicate_layout.action_replicate_layout 201:Replication complete

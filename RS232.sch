@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 21
+Sheet 4 22
 Title ""
 Date ""
 Rev ""
@@ -179,35 +179,17 @@ Wire Wire Line
 	3650 3850 2250 3850
 Wire Wire Line
 	2250 4050 3650 4050
-$Sheet
-S 6600 3350 600  800 
-U 609FB88E
-F0 "RS232Filter" 50
-F1 "RS422Filter.sch" 50
-F2 "A_ext" I L 6600 3650 50 
-F3 "B_ext" I L 6600 3450 50 
-F4 "A_int" I R 7200 3650 50 
-F5 "B_int" I R 7200 3450 50 
-F6 "Y_ext" I L 6600 4050 50 
-F7 "Z_ext" I L 6600 3850 50 
-F8 "Y_int" I R 7200 4050 50 
-F9 "Z_int" I R 7200 3850 50 
-$EndSheet
 Wire Wire Line
 	6600 3450 5250 3450
 Wire Wire Line
 	5250 3650 6600 3650
-Wire Wire Line
-	6600 3850 5250 3850
-Wire Wire Line
-	5250 4050 6600 4050
 $Comp
 L Connector:DB9_Female J8
 U 1 1 609FDDEA
 P 10150 3650
 F 0 "J8" H 10330 3696 50  0000 L CNN
 F 1 "DB9_Female" H 10330 3605 50  0000 L CNN
-F 2 "" H 10150 3650 50  0001 C CNN
+F 2 "Mouser:23117651" H 10150 3650 50  0001 C CNN
 F 3 " ~" H 10150 3650 50  0001 C CNN
 	1    10150 3650
 	1    0    0    -1  
@@ -218,7 +200,7 @@ U 1 1 60A00C31
 P 8800 3550
 F 0 "J6" V 8896 3362 50  0000 R CNN
 F 1 "Conn_02x03_Odd_Even" V 8805 3362 50  0000 R CNN
-F 2 "" H 8800 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8800 3550 50  0001 C CNN
 F 3 "~" H 8800 3550 50  0001 C CNN
 	1    8800 3550
 	0    -1   -1   0   
@@ -298,9 +280,7 @@ F 3 "~" H 10050 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 3850 7800 3850
-Wire Wire Line
-	7650 4050 7200 4050
+	7650 4250 7200 4250
 $Comp
 L power:GND #PWR042
 U 1 1 60A1743F
@@ -317,11 +297,45 @@ Wire Wire Line
 Wire Wire Line
 	9750 5150 9850 5150
 Wire Wire Line
-	7800 3850 7800 4950
+	7800 4050 7800 4950
 Wire Wire Line
 	7800 4950 9850 4950
 Wire Wire Line
 	7650 5050 9850 5050
+$Sheet
+S 6600 3350 600  400 
+U 609FB88E
+F0 "RS232Filter_1" 50
+F1 "RS422Filter.sch" 50
+F2 "B_ext" I R 7200 3450 50 
+F3 "A_int" I L 6600 3650 50 
+F4 "B_int" I L 6600 3450 50 
+F5 "A_ext" I R 7200 3650 50 
+$EndSheet
+$Sheet
+S 6600 3950 600  400 
+U 608DD62D
+F0 "sheet608DD623" 50
+F1 "RS422Filter.sch" 50
+F2 "B_ext" I R 7200 4050 50 
+F3 "A_int" I L 6600 4250 50 
+F4 "B_int" I L 6600 4050 50 
+F5 "A_ext" I R 7200 4250 50 
+$EndSheet
 Wire Wire Line
-	7650 4050 7650 5050
+	7650 4250 7650 5050
+Wire Wire Line
+	7200 4050 7800 4050
+Wire Wire Line
+	6600 4050 6150 4050
+Wire Wire Line
+	6150 4050 6150 3850
+Wire Wire Line
+	6150 3850 5250 3850
+Wire Wire Line
+	5250 4050 6000 4050
+Wire Wire Line
+	6000 4050 6000 4250
+Wire Wire Line
+	6000 4250 6600 4250
 $EndSCHEMATC

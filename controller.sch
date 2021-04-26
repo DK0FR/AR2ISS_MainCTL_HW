@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 21
+Sheet 15 22
 Title ""
 Date "2021-04-18"
 Rev ""
@@ -63,7 +63,7 @@ U 1 1 60724356
 P 3900 5250
 F 0 "J25" H 3950 5567 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3950 5476 50  0000 C CNN
-F 2 "" H 3900 5250 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 3900 5250 50  0001 C CNN
 F 3 "~" H 3900 5250 50  0001 C CNN
 	1    3900 5250
 	1    0    0    -1  
@@ -303,7 +303,7 @@ U 1 1 6077DA4C
 P 13000 7050
 F 0 "J26" H 13080 7042 50  0000 L CNN
 F 1 "Conn_01x02" H 13080 6951 50  0000 L CNN
-F 2 "" H 13000 7050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 13000 7050 50  0001 C CNN
 F 3 "~" H 13000 7050 50  0001 C CNN
 	1    13000 7050
 	1    0    0    -1  
@@ -507,8 +507,6 @@ Text Label 7900 1550 1    50   ~ 0
 VBATT
 Wire Wire Line
 	7900 1350 7900 1800
-Wire Bus Line
-	3550 2450 3550 3200
 Text HLabel 3500 8000 0    50   Input ~ 0
 SD_#CS
 Text HLabel 3200 8200 0    50   Input ~ 0
@@ -517,4 +515,6 @@ Text HLabel 3250 8350 0    50   Input ~ 0
 SD_MISO
 Text HLabel 3200 8550 0    50   Input ~ 0
 SD_SCK
+Wire Bus Line
+	3550 2450 3550 3200
 $EndSCHEMATC
