@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 22
+Sheet 22 22
 Title ""
 Date ""
 Rev ""
@@ -977,8 +977,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 3700 7550 3700
 Entry Wire Line
-	6200 1350 6300 1450
-Entry Wire Line
 	6200 2400 6300 2500
 Entry Wire Line
 	6200 3500 6300 3600
@@ -992,7 +990,7 @@ Entry Wire Line
 	10300 3700 10400 3800
 Entry Wire Line
 	10300 4850 10400 4950
-Text Label 5500 900  0    50   ~ 0
+Text Label 6450 800  0    50   ~ 0
 DA_IN_LL[0..7]
 Text Label 5800 1350 0    50   ~ 0
 DA_IN_LL0
@@ -1026,13 +1024,20 @@ Wire Wire Line
 	9900 2500 10300 2500
 Wire Wire Line
 	9900 1350 10300 1350
+Text HLabel 5500 800  0    50   Output ~ 0
+DA_IN_LL[0..7]
+Entry Wire Line
+	6200 1350 6300 1450
+Entry Bus Bus
+	10300 800  10400 900 
+Entry Bus Bus
+	6200 800  6300 900 
+Entry Bus Bus
+	10300 800  10400 900 
+Entry Bus Bus
+	10300 800  10400 900 
 Wire Bus Line
-	6300 900  5500 900 
-Wire Bus Line
-	10400 900  6300 900 
-Connection ~ 6300 900 
-Text HLabel 5500 900  0    50   Input ~ 0
-DA_IN_LL
+	5500 800  10300 800 
 Wire Bus Line
 	10400 900  10400 4950
 Wire Bus Line

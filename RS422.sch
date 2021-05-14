@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 22
+Sheet 16 22
 Title ""
 Date ""
 Rev ""
@@ -199,11 +199,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 1500 6150 1400
 Connection ~ 6150 1400
-Text HLabel 5950 6850 2    50   Input ~ 0
-PTT2
 Text HLabel 5950 5150 2    50   Input ~ 0
-PTT1
-Text HLabel 5950 3350 2    50   Input ~ 0
+TX2
+Text HLabel 5950 3350 2    50   Output ~ 0
 RX
 Wire Wire Line
 	7100 1000 7100 1200
@@ -222,7 +220,7 @@ F0 "RS485Tranceiver3" 50
 F1 "RS485Tranceiver.sch" 50
 F2 "A_in" I L 5150 4900 50 
 F3 "B_in" I L 5150 5300 50 
-F4 "MODE" I R 5850 5300 50 
+F4 "MODE" I R 5850 5000 50 
 F5 "VCC" I R 5850 4900 50 
 F6 "DATA" B R 5850 5150 50 
 $EndSheet
@@ -292,21 +290,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 3500 5850 3500
 $Comp
-L power:GND #PWR060
-U 1 1 607B0400
-P 6200 5550
-F 0 "#PWR060" H 6200 5300 50  0001 C CNN
-F 1 "GND" H 6205 5377 50  0000 C CNN
-F 2 "" H 6200 5550 50  0001 C CNN
-F 3 "" H 6200 5550 50  0001 C CNN
-	1    6200 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 5550 6200 5300
-Wire Wire Line
-	6200 5300 5850 5300
-$Comp
 L power:GND #PWR061
 U 1 1 607B1C3E
 P 6200 7250
@@ -359,4 +342,11 @@ F6 "DATA" B R 5850 3350 50
 $EndSheet
 Wire Wire Line
 	2200 3800 2550 3800
+Text HLabel 5950 6850 2    50   Output ~ 0
+RX2
+Wire Wire Line
+	5850 5000 6150 5000
+Wire Wire Line
+	6150 5000 6150 4900
+Connection ~ 6150 4900
 $EndSCHEMATC

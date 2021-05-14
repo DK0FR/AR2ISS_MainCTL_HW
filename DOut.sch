@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 22
+Sheet 12 22
 Title ""
 Date ""
 Rev ""
@@ -159,20 +159,61 @@ $EndComp
 $Comp
 L Device:L L27
 U 1 1 60AE7C4C
-P 6650 3000
-F 0 "L27" H 6703 3046 50  0000 L CNN
-F 1 "L" H 6703 2955 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 6650 3000 50  0001 C CNN
-F 3 "~" H 6650 3000 50  0001 C CNN
-	1    6650 3000
+P 6650 2950
+F 0 "L27" H 6703 2996 50  0000 L CNN
+F 1 "L" H 6703 2905 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 6650 2950 50  0001 C CNN
+F 3 "~" H 6650 2950 50  0001 C CNN
+	1    6650 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6800 3200 6650 3200
 Wire Wire Line
-	6650 3200 6650 3150
+	6650 3200 6650 3100
 Wire Wire Line
-	6650 2750 6650 2850
+	6650 2750 6650 2800
+Text Label 5500 2500 0    50   ~ 0
+IO[0..15]
+Wire Wire Line
+	7300 3200 7400 3200
+Wire Wire Line
+	7400 3200 7400 3100
+Wire Wire Line
+	7400 3100 6650 3100
+Connection ~ 6650 3100
+Text Label 6650 3300 0    50   ~ 0
+IO0
+Text Label 7300 3300 0    50   ~ 0
+IO1
+Text Label 6650 3400 0    50   ~ 0
+IO2
+Text Label 7300 3400 0    50   ~ 0
+IO3
+Text Label 6650 3500 0    50   ~ 0
+IO4
+Text Label 7300 3500 0    50   ~ 0
+IO5
+Text Label 6650 3600 0    50   ~ 0
+IO6
+Text Label 7300 3600 0    50   ~ 0
+IO7
+Text Label 6650 3700 0    50   ~ 0
+IO8
+Text Label 7300 3700 0    50   ~ 0
+IO9
+Text Label 6650 3800 0    50   ~ 0
+IO10
+Text Label 7300 3800 0    50   ~ 0
+IO11
+Text Label 6650 3900 0    50   ~ 0
+IO12
+Text Label 7300 3900 0    50   ~ 0
+IO13
+Text Label 6650 4000 0    50   ~ 0
+IO14
+Text Label 7300 4000 0    50   ~ 0
+IO15
 Wire Bus Line
 	6500 2500 6500 3900
 Wire Bus Line

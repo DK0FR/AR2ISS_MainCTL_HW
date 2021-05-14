@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 22
+Sheet 22 22
 Title ""
 Date "2021-04-18"
 Rev ""
@@ -13,50 +13,48 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 12700 1600 0    50   Input ~ 0
+Text HLabel 9750 4700 2    50   Input ~ 0
 SDA
-Text HLabel 12700 1750 0    50   Input ~ 0
+Text HLabel 9750 4800 2    50   Input ~ 0
 SCL
-Text HLabel 12650 4600 0    50   Input ~ 0
+Text HLabel 9850 7500 2    50   Input ~ 0
 FDCAN_TX
-Text HLabel 12550 4500 0    50   Input ~ 0
+Text HLabel 9850 7400 2    50   Input ~ 0
 FDCAN_RX
-Text HLabel 12250 3200 0    50   Input ~ 0
+Text HLabel 9850 7900 2    50   Output ~ 0
 TX
-Text HLabel 12250 3300 0    50   Input ~ 0
+Text HLabel 9850 8000 2    50   Input ~ 0
 RX
-Text HLabel 12300 3900 0    50   Input ~ 0
+Text HLabel 6550 5400 0    50   Output ~ 0
 TX2
-Text HLabel 12250 4050 0    50   Input ~ 0
+Text HLabel 6550 4900 0    50   Input ~ 0
 RX2
-Text HLabel 12600 3750 0    50   Input ~ 0
+Text HLabel 6500 7100 0    50   Input ~ 0
 LD1
-Text HLabel 12750 3900 0    50   Input ~ 0
+Text HLabel 6500 7200 0    50   Input ~ 0
 LD2
-Text HLabel 5350 1650 0    50   Input ~ 0
+Text HLabel 6550 4700 0    50   Input ~ 0
 CD
-Text HLabel 5300 1800 0    50   Input ~ 0
+Text HLabel 6550 4800 0    50   Input ~ 0
 CE
-Text HLabel 5300 1950 0    50   Input ~ 0
+Text HLabel 9750 3800 2    50   Input ~ 0
 Backlight
-Text HLabel 5150 2200 0    50   Input ~ 0
+Text HLabel 9800 5500 2    50   Input ~ 0
 DisplayData
-Text HLabel 5300 2500 0    50   Input ~ 0
+Text HLabel 9850 7700 2    50   Input ~ 0
 DisplayCLK
-Text HLabel 5250 3250 0    50   Input ~ 0
+Text HLabel 6500 8300 0    50   Input ~ 0
 ENC_A
-Text HLabel 5250 3500 0    50   Input ~ 0
+Text HLabel 6500 8500 0    50   Input ~ 0
 ENC_B
-Text HLabel 1650 2800 0    50   Input ~ 0
+Text HLabel 6500 7700 0    50   Input ~ 0
 REL1
-Text HLabel 1650 2900 0    50   Input ~ 0
+Text HLabel 6500 7800 0    50   Input ~ 0
 REL2
-Text HLabel 1650 3000 0    50   Input ~ 0
+Text HLabel 6500 7900 0    50   Input ~ 0
 REL3
-Text HLabel 1650 3100 0    50   Input ~ 0
+Text HLabel 6500 8000 0    50   Input ~ 0
 REL4
-Text HLabel 2150 1550 0    50   Input ~ 0
-DA_IN_LL
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J25
 U 1 1 60724356
@@ -163,9 +161,9 @@ F 3 "" H 3250 5800 50  0001 C CNN
 	1    3250 5800
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 3750 0    50   Input ~ 0
+Text HLabel 9850 2700 2    50   Input ~ 0
 DAC1
-Text HLabel 1400 3900 0    50   Input ~ 0
+Text HLabel 9850 2800 2    50   Input ~ 0
 DAC2
 $Comp
 L Device:D_Schottky D26
@@ -173,7 +171,7 @@ U 1 1 607762D3
 P 1500 5750
 F 0 "D26" V 1546 5670 50  0000 R CNN
 F 1 "D_Schottky" V 1455 5670 50  0000 R CNN
-F 2 "" H 1500 5750 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 5750 50  0001 C CNN
 F 3 "~" H 1500 5750 50  0001 C CNN
 	1    1500 5750
 	0    -1   -1   0   
@@ -267,7 +265,7 @@ Text Label 1750 6350 0    50   ~ 0
 VBATT
 Wire Wire Line
 	1950 6350 1500 6350
-Text Label 11850 7050 0    50   ~ 0
+Text Label 11500 7050 0    50   ~ 0
 ONEWIRE
 $Comp
 L AR2ISS:R R127
@@ -309,38 +307,38 @@ F 3 "~" H 13000 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11850 7050 12450 7050
+	11500 7050 11900 7050
 Connection ~ 12450 7050
 Wire Wire Line
 	12450 7050 12800 7050
 $Comp
 L power:GND #PWR0191
 U 1 1 6077E650
-P 12700 7350
-F 0 "#PWR0191" H 12700 7100 50  0001 C CNN
-F 1 "GND" H 12705 7177 50  0000 C CNN
-F 2 "" H 12700 7350 50  0001 C CNN
-F 3 "" H 12700 7350 50  0001 C CNN
-	1    12700 7350
+P 12700 7500
+F 0 "#PWR0191" H 12700 7250 50  0001 C CNN
+F 1 "GND" H 12705 7327 50  0000 C CNN
+F 2 "" H 12700 7500 50  0001 C CNN
+F 3 "" H 12700 7500 50  0001 C CNN
+	1    12700 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12700 7350 12700 7150
+	12700 7500 12700 7150
 Wire Wire Line
 	12700 7150 12800 7150
-Text HLabel 2700 2700 0    50   Input ~ 0
+Text HLabel 9750 4200 2    50   Input ~ 0
 MOSI
-Text HLabel 2700 2800 0    50   Input ~ 0
+Text HLabel 10000 6800 2    50   Input ~ 0
 MISO
-Text HLabel 2700 2900 0    50   Input ~ 0
+Text HLabel 10000 6700 2    50   Input ~ 0
 SCLK
-Text HLabel 2650 3050 0    50   Input ~ 0
+Text HLabel 9900 8500 2    50   Input ~ 0
 #CS1
-Text HLabel 2650 3300 0    50   Input ~ 0
+Text HLabel 9900 8600 2    50   Input ~ 0
 #CS2
-Text HLabel 2650 3150 0    50   Input ~ 0
+Text HLabel 10350 8550 2    50   Input ~ 0
 EN1
-Text HLabel 2650 3400 0    50   Input ~ 0
+Text HLabel 10350 8650 2    50   Input ~ 0
 EN2
 Entry Wire Line
 	3550 2500 3650 2600
@@ -386,10 +384,6 @@ Wire Wire Line
 	3650 3000 4200 3000
 Wire Wire Line
 	3650 3100 4200 3100
-Wire Wire Line
-	3650 3200 4200 3200
-Wire Wire Line
-	3650 3300 4200 3300
 Wire Bus Line
 	3550 2450 2900 2450
 Text Label 2900 2450 0    50   ~ 0
@@ -399,122 +393,434 @@ PWM_DOUT
 $Comp
 L AR2ISS:NUCLEO144-H745ZI U2
 U 1 1 607D5690
-P 8100 5600
-F 0 "U2" H 8100 9581 50  0000 C CNN
-F 1 "NUCLEO144-H745ZI" H 8100 9490 50  0000 C CNN
-F 2 "Module:ST_Morpho_Connector_144_STLink" H 8950 1950 50  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf" H 7200 5900 50  0001 C CNN
-	1    8100 5600
+P 8250 5600
+F 0 "U2" H 8250 9581 50  0000 C CNN
+F 1 "NUCLEO144-H745ZI" H 8250 9490 50  0000 C CNN
+F 2 "Module:ST_Morpho_Connector_144_STLink" H 9100 1950 50  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf" H 7350 5900 50  0001 C CNN
+	1    8250 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Zener D22
 U 1 1 607E521E
-P 12150 7450
-F 0 "D22" V 12104 7530 50  0000 L CNN
-F 1 "MMSZ3V6CW" V 12195 7530 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 12150 7450 50  0001 C CNN
-F 3 "~" H 12150 7450 50  0001 C CNN
-	1    12150 7450
+P 11900 7300
+F 0 "D22" V 11854 7380 50  0000 L CNN
+F 1 "MMSZ3V6CW" V 11945 7380 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 11900 7300 50  0001 C CNN
+F 3 "~" H 11900 7300 50  0001 C CNN
+	1    11900 7300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7300 9400 7300 9500
+	7450 9400 7450 9500
 Wire Wire Line
-	7300 9500 7400 9500
+	7450 9500 7550 9500
 Wire Wire Line
-	8700 9500 8700 9700
+	8850 9500 8850 9700
 $Comp
 L power:GND #PWR055
 U 1 1 607E8A70
-P 8700 9700
-F 0 "#PWR055" H 8700 9450 50  0001 C CNN
-F 1 "GND" H 8705 9527 50  0000 C CNN
-F 2 "" H 8700 9700 50  0001 C CNN
-F 3 "" H 8700 9700 50  0001 C CNN
-	1    8700 9700
+P 8850 9700
+F 0 "#PWR055" H 8850 9450 50  0001 C CNN
+F 1 "GND" H 8855 9527 50  0000 C CNN
+F 2 "" H 8850 9700 50  0001 C CNN
+F 3 "" H 8850 9700 50  0001 C CNN
+	1    8850 9700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 9400 7400 9500
-Connection ~ 7400 9500
+	7550 9400 7550 9500
+Connection ~ 7550 9500
 Wire Wire Line
-	7400 9500 7500 9500
+	7550 9500 7650 9500
 Wire Wire Line
-	7500 9400 7500 9500
-Connection ~ 7500 9500
+	7650 9400 7650 9500
+Connection ~ 7650 9500
 Wire Wire Line
-	7500 9500 7600 9500
+	7650 9500 7750 9500
 Wire Wire Line
-	7600 9400 7600 9500
-Connection ~ 7600 9500
+	7750 9400 7750 9500
+Connection ~ 7750 9500
 Wire Wire Line
-	7600 9500 7700 9500
+	7750 9500 7850 9500
 Wire Wire Line
-	7700 9400 7700 9500
-Connection ~ 7700 9500
+	7850 9400 7850 9500
+Connection ~ 7850 9500
 Wire Wire Line
-	7700 9500 7800 9500
+	7850 9500 7950 9500
 Wire Wire Line
-	7800 9400 7800 9500
-Connection ~ 7800 9500
+	7950 9400 7950 9500
+Connection ~ 7950 9500
 Wire Wire Line
-	7800 9500 7900 9500
+	7950 9500 8050 9500
 Wire Wire Line
-	7900 9400 7900 9500
-Connection ~ 7900 9500
+	8050 9400 8050 9500
+Connection ~ 8050 9500
 Wire Wire Line
-	7900 9500 8000 9500
+	8050 9500 8150 9500
 Wire Wire Line
-	8000 9400 8000 9500
-Connection ~ 8000 9500
+	8150 9400 8150 9500
+Connection ~ 8150 9500
 Wire Wire Line
-	8000 9500 8100 9500
+	8150 9500 8250 9500
 Wire Wire Line
-	8100 9400 8100 9500
-Connection ~ 8100 9500
+	8250 9400 8250 9500
+Connection ~ 8250 9500
 Wire Wire Line
-	8200 9400 8200 9500
+	8350 9400 8350 9500
 Wire Wire Line
-	8100 9500 8200 9500
-Connection ~ 8200 9500
+	8250 9500 8350 9500
+Connection ~ 8350 9500
 Wire Wire Line
-	8200 9500 8300 9500
+	8350 9500 8450 9500
 Wire Wire Line
-	8300 9400 8300 9500
-Connection ~ 8300 9500
+	8450 9400 8450 9500
+Connection ~ 8450 9500
 Wire Wire Line
-	8300 9500 8400 9500
+	8450 9500 8550 9500
 Wire Wire Line
-	8400 9400 8400 9500
-Connection ~ 8400 9500
+	8550 9400 8550 9500
+Connection ~ 8550 9500
 Wire Wire Line
-	8400 9500 8500 9500
+	8550 9500 8650 9500
 Wire Wire Line
-	8500 9400 8500 9500
-Connection ~ 8500 9500
+	8650 9400 8650 9500
+Connection ~ 8650 9500
 Wire Wire Line
-	8600 9400 8600 9500
+	8750 9400 8750 9500
 Wire Wire Line
-	8500 9500 8600 9500
-Connection ~ 8600 9500
+	8650 9500 8750 9500
+Connection ~ 8750 9500
 Wire Wire Line
-	8600 9500 8700 9500
+	8750 9500 8850 9500
 Wire Wire Line
-	8700 9400 8700 9500
-Connection ~ 8700 9500
-Text Label 7900 1550 1    50   ~ 0
+	8850 9400 8850 9500
+Connection ~ 8850 9500
+Text Label 8050 1550 1    50   ~ 0
 VBATT
 Wire Wire Line
-	7900 1350 7900 1800
-Text HLabel 3500 8000 0    50   Input ~ 0
-SD_#CS
-Text HLabel 3200 8200 0    50   Input ~ 0
-SD_MOSI
-Text HLabel 3250 8350 0    50   Input ~ 0
-SD_MISO
-Text HLabel 3200 8550 0    50   Input ~ 0
-SD_SCK
+	8050 1350 8050 1800
+Text HLabel 6500 8900 0    50   Input ~ 0
+SDMMC_CD
+Text HLabel 9850 7600 2    50   Input ~ 0
+SDMMC_CMD
+Text HLabel 10000 6900 2    50   Input ~ 0
+SDMMC_CK
+Text HLabel 10000 6500 2    50   Input ~ 0
+SDMMC_D0
+Wire Wire Line
+	6950 7700 6500 7700
+Wire Wire Line
+	6500 7800 6950 7800
+Wire Wire Line
+	6950 7900 6500 7900
+Wire Wire Line
+	6950 8000 6500 8000
+Wire Bus Line
+	12800 8750 12000 8750
+Text HLabel 12000 8750 0    50   Input ~ 0
+DA_IN_LL[0..7]
+Entry Wire Line
+	12800 8800 12900 8900
+Entry Wire Line
+	12800 9000 12900 9100
+Entry Wire Line
+	12800 9100 12900 9200
+Entry Wire Line
+	12800 9200 12900 9300
+Entry Wire Line
+	12800 9300 12900 9400
+Entry Wire Line
+	12800 9400 12900 9500
+Entry Wire Line
+	12800 9500 12900 9600
+Entry Wire Line
+	12800 8900 12900 9000
+Wire Wire Line
+	12900 8900 13150 8900
+Wire Wire Line
+	13150 9000 12900 9000
+Wire Wire Line
+	12900 9100 13150 9100
+Wire Wire Line
+	12900 9200 13150 9200
+Wire Wire Line
+	12900 9300 13150 9300
+Wire Wire Line
+	12900 9400 13150 9400
+Wire Wire Line
+	12900 9500 13150 9500
+Wire Wire Line
+	12900 9600 13150 9600
+Text Label 12900 8900 0    50   ~ 0
+DA_IN_LL0
+Text Label 12900 9000 0    50   ~ 0
+DA_IN_LL1
+Text Label 12900 9100 0    50   ~ 0
+DA_IN_LL2
+Text Label 12900 9200 0    50   ~ 0
+DA_IN_LL3
+Text Label 12900 9300 0    50   ~ 0
+DA_IN_LL4
+Text Label 12900 9400 0    50   ~ 0
+DA_IN_LL5
+Text Label 12900 9500 0    50   ~ 0
+DA_IN_LL6
+Text Label 12900 9600 0    50   ~ 0
+DA_IN_LL7
+Text Label 10000 5900 0    50   ~ 0
+DA_IN_LL0
+Text Label 10000 6000 0    50   ~ 0
+DA_IN_LL1
+Wire Wire Line
+	10000 6000 9550 6000
+Wire Wire Line
+	9550 5900 10000 5900
+Text Label 6500 6600 2    50   ~ 0
+DA_IN_LL2
+Wire Wire Line
+	6500 6600 6950 6600
+Text Label 6500 6400 2    50   ~ 0
+DA_IN_LL3
+Wire Wire Line
+	6500 6400 6950 6400
+Text Label 6500 6700 2    50   ~ 0
+DA_IN_LL4
+Text Label 6500 6500 2    50   ~ 0
+DA_IN_LL5
+Text Label 6500 6300 2    50   ~ 0
+DA_IN_LL6
+Text Label 10000 5700 0    50   ~ 0
+DA_IN_LL7
+Wire Wire Line
+	10000 5700 9550 5700
+Wire Wire Line
+	6500 6300 6950 6300
+Wire Wire Line
+	6950 6500 6500 6500
+Wire Wire Line
+	6500 6700 6950 6700
+Text HLabel 9750 4100 2    50   Input ~ 0
+ADC12V
+Text HLabel 9850 2600 2    50   Input ~ 0
+ADC5V
+Text HLabel 6500 6800 0    50   Input ~ 0
+ADCPWR
+Text HLabel 9850 2300 2    50   Input ~ 0
+ADC3V3
+Text Label 9750 3600 0    50   ~ 0
+SWDIO
+Text Label 9750 3700 0    50   ~ 0
+SWCLK
+Text Label 3300 5250 0    50   ~ 0
+NRST
+Text Label 6500 2400 0    50   ~ 0
+NRST
+Wire Wire Line
+	6500 2400 6950 2400
+Wire Wire Line
+	9550 3700 9750 3700
+Wire Wire Line
+	9750 3600 9550 3600
+Text Label 9750 4300 0    50   ~ 0
+SWO
+Wire Wire Line
+	9750 4300 9550 4300
+Text HLabel 6500 8200 0    50   Output ~ 0
+COM_TX1
+Text HLabel 6500 8100 0    50   Input ~ 0
+COM_RX1
+Text HLabel 9750 4600 2    50   Input ~ 0
+COM_TX2
+Text HLabel 9750 3300 2    50   Input ~ 0
+COM_RX2
+Wire Wire Line
+	6500 8100 6950 8100
+Wire Wire Line
+	6950 8200 6500 8200
+Wire Wire Line
+	9850 8000 9550 8000
+Wire Wire Line
+	9550 7900 9850 7900
+Wire Wire Line
+	9750 4600 9550 4600
+Wire Wire Line
+	9550 3300 9750 3300
+Wire Wire Line
+	6550 4900 6950 4900
+Wire Wire Line
+	6950 5400 6550 5400
+Wire Wire Line
+	9850 7500 9550 7500
+Wire Wire Line
+	9550 7400 9850 7400
+Text HLabel 9750 5100 2    50   Input ~ 0
+SDA_ext
+Text HLabel 9750 5000 2    50   Input ~ 0
+SCL_ext
+Wire Wire Line
+	9750 4800 9550 4800
+Wire Wire Line
+	9550 4700 9750 4700
+Wire Wire Line
+	9750 5100 9550 5100
+Wire Wire Line
+	9550 5000 9750 5000
+Wire Wire Line
+	10000 6900 9550 6900
+Wire Wire Line
+	9550 6500 10000 6500
+Wire Wire Line
+	9850 7600 9550 7600
+Wire Wire Line
+	9850 2800 9550 2800
+Wire Wire Line
+	9550 2700 9850 2700
+Wire Wire Line
+	9550 5500 9800 5500
+Wire Wire Line
+	9850 7700 9550 7700
+Wire Wire Line
+	9750 4200 9550 4200
+Wire Wire Line
+	10000 6700 9550 6700
+Wire Wire Line
+	9550 6800 10000 6800
+Text Label 10000 6300 0    50   ~ 0
+ONEWIRE
+Wire Wire Line
+	10000 6300 9550 6300
+Wire Wire Line
+	6500 8500 6950 8500
+Wire Wire Line
+	6950 8300 6500 8300
+Text Label 6500 8700 2    50   ~ 0
+PWM_DOUT0
+Text Label 6500 8800 2    50   ~ 0
+PWM_DOUT1
+Wire Wire Line
+	6500 8700 6950 8700
+Wire Wire Line
+	6950 8800 6500 8800
+Text Label 9900 8800 0    50   ~ 0
+PWM_DOUT2
+Text Label 9900 8900 0    50   ~ 0
+PWM_DOUT3
+Wire Wire Line
+	9900 8800 9550 8800
+Wire Wire Line
+	9550 8900 9900 8900
+Text Label 9850 2900 0    50   ~ 0
+PWM_DOUT4
+Text Label 10000 6400 0    50   ~ 0
+PWM_DOUT5
+Wire Wire Line
+	10000 6400 9550 6400
+Wire Wire Line
+	9850 2900 9550 2900
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 60A7645A
+P 4600 3200
+F 0 "JP1" H 4600 3385 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4600 3294 50  0000 C CNN
+F 2 "" H 4600 3200 50  0001 C CNN
+F 3 "~" H 4600 3200 50  0001 C CNN
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 60A76AA5
+P 4600 3300
+F 0 "JP2" H 4600 3485 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4600 3394 50  0000 C CNN
+F 2 "" H 4600 3300 50  0001 C CNN
+F 3 "~" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3300 4500 3300
+Wire Wire Line
+	3650 3200 4500 3200
+Text HLabel 5150 3200 2    50   Input ~ 0
+ENC_A
+Text HLabel 5150 3300 2    50   Input ~ 0
+ENC_B
+Wire Wire Line
+	5150 3300 4700 3300
+Wire Wire Line
+	4700 3200 5150 3200
+Wire Wire Line
+	9850 2300 9550 2300
+Wire Wire Line
+	9850 2600 9550 2600
+Wire Wire Line
+	9750 4100 9550 4100
+Wire Wire Line
+	6500 6800 6950 6800
+$Comp
+L power:GND #PWR0215
+U 1 1 60ABE39E
+P 11900 7500
+F 0 "#PWR0215" H 11900 7250 50  0001 C CNN
+F 1 "GND" H 11905 7327 50  0000 C CNN
+F 2 "" H 11900 7500 50  0001 C CNN
+F 3 "" H 11900 7500 50  0001 C CNN
+	1    11900 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 7500 11900 7450
+Wire Wire Line
+	11900 7150 11900 7050
+Connection ~ 11900 7050
+Wire Wire Line
+	11900 7050 12000 7050
+$Comp
+L AR2ISS:R R144
+U 1 1 60AC8FF3
+P 12150 7050
+F 0 "R144" V 11943 7050 50  0000 C CNN
+F 1 "100" V 12034 7050 50  0000 C CNN
+F 2 "" V 12080 7050 50  0001 C CNN
+F 3 "~" H 12150 7050 50  0001 C CNN
+	1    12150 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12300 7050 12450 7050
+Wire Wire Line
+	9750 3800 9550 3800
+Wire Wire Line
+	6550 4700 6950 4700
+Wire Wire Line
+	6950 4800 6550 4800
+Wire Wire Line
+	6950 7100 6500 7100
+Wire Wire Line
+	6500 7200 6950 7200
+Wire Wire Line
+	6500 8900 6950 8900
+Wire Wire Line
+	10350 8550 10250 8550
+Wire Wire Line
+	10250 8550 10250 8650
+Wire Wire Line
+	10250 8700 9550 8700
+Wire Wire Line
+	10350 8650 10250 8650
+Connection ~ 10250 8650
+Wire Wire Line
+	10250 8650 10250 8700
+Wire Wire Line
+	9900 8500 9550 8500
+Wire Wire Line
+	9550 8600 9900 8600
+Wire Bus Line
+	12800 8750 12800 9500
 Wire Bus Line
 	3550 2450 3550 3200
 $EndSCHEMATC

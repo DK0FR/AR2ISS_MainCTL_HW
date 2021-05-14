@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 22
+Sheet 15 22
 Title ""
 Date ""
 Rev ""
@@ -95,9 +95,9 @@ Wire Wire Line
 Wire Wire Line
 	4500 3000 4500 2500
 Text HLabel 3100 3100 0    50   Input ~ 0
-#CS
+#CD
 Text HLabel 3100 3200 0    50   Input ~ 0
-MOSI
+CMD
 Wire Wire Line
 	5150 3300 4800 3300
 Wire Wire Line
@@ -130,11 +130,11 @@ Connection ~ 4500 2000
 Wire Wire Line
 	4500 2000 4250 2000
 Text HLabel 3100 3400 0    50   Input ~ 0
-SCK
+CLK
 Wire Wire Line
 	3100 3400 5150 3400
 Text HLabel 3100 3600 0    50   Input ~ 0
-MISO
+D0
 Wire Wire Line
 	3100 3600 3500 3600
 Wire Wire Line
