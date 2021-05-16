@@ -340,8 +340,6 @@ F4 "MODE" I R 5850 3500 50
 F5 "VCC" I R 5850 3100 50 
 F6 "DATA" B R 5850 3350 50 
 $EndSheet
-Wire Wire Line
-	2200 3800 2550 3800
 Text HLabel 5950 6850 2    50   Output ~ 0
 RX2
 Wire Wire Line
@@ -349,4 +347,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 5000 6150 4900
 Connection ~ 6150 4900
+Wire Wire Line
+	2400 3800 2550 3800
+Wire Wire Line
+	2400 3800 2200 3800
+Connection ~ 2400 3800
 $EndSCHEMATC
