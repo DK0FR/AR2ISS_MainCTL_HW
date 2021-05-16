@@ -352,4 +352,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 3800 2200 3800
 Connection ~ 2400 3800
+Text Label 6500 1200 0    50   ~ 0
+VCC_RS422
 $EndSCHEMATC
