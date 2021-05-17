@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 22
+Sheet 13 22
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 60B19F5A
 P 6050 3300
 F 0 "J27" H 6000 4017 50  0000 C CNN
 F 1 "Micro_SD_Card" H 6000 3926 50  0000 C CNN
-F 2 "" H 7200 3600 50  0001 C CNN
+F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 7200 3600 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 6050 3300 50  0001 C CNN
 	1    6050 3300
 	1    0    0    -1  
