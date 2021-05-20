@@ -181,8 +181,6 @@ Wire Wire Line
 	2250 4050 3650 4050
 Wire Wire Line
 	6600 3450 5250 3450
-Wire Wire Line
-	5250 3650 6600 3650
 $Comp
 L Connector:DB9_Female J8
 U 1 1 609FDDEA
@@ -329,13 +327,19 @@ Wire Wire Line
 Wire Wire Line
 	6600 4050 6150 4050
 Wire Wire Line
-	6150 4050 6150 3850
-Wire Wire Line
-	6150 3850 5250 3850
-Wire Wire Line
 	5250 4050 6000 4050
 Wire Wire Line
 	6000 4050 6000 4250
 Wire Wire Line
 	6000 4250 6600 4250
+Wire Wire Line
+	5250 3650 6150 3650
+Wire Wire Line
+	6150 3650 6150 4050
+Wire Wire Line
+	5250 3850 6350 3850
+Wire Wire Line
+	6350 3850 6350 3650
+Wire Wire Line
+	6350 3650 6600 3650
 $EndSCHEMATC

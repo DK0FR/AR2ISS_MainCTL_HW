@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 21 22
+Sheet 22 22
 Title ""
 Date "2021-04-18"
 Rev ""
@@ -33,9 +33,7 @@ Text HLabel 6500 7100 0    50   Input ~ 0
 LD1
 Text HLabel 6500 7200 0    50   Input ~ 0
 LD2
-Text HLabel 6550 4700 0    50   Input ~ 0
-CD
-Text HLabel 6550 4800 0    50   Input ~ 0
+Text HLabel 9950 4900 2    50   Input ~ 0
 CE
 Text HLabel 9750 3800 2    50   Input ~ 0
 Backlight
@@ -389,7 +387,7 @@ Wire Bus Line
 Text Label 2900 2450 0    50   ~ 0
 PWM_DOUT[0..7]
 Text HLabel 2900 2450 0    50   Input ~ 0
-PWM_DOUT
+PWM_DOUT[0..7]
 $Comp
 L AR2ISS:NUCLEO144-H745ZI U2
 U 1 1 607D5690
@@ -607,7 +605,7 @@ Text HLabel 9850 2600 2    50   Input ~ 0
 ADC5V
 Text HLabel 6500 6800 0    50   Input ~ 0
 ADCPWR
-Text HLabel 9850 2300 2    50   Input ~ 0
+Text HLabel 9850 2900 2    50   Input ~ 0
 ADC3V3
 Text Label 9750 3600 0    50   ~ 0
 SWDIO
@@ -711,50 +709,10 @@ Wire Wire Line
 	9900 8800 9550 8800
 Wire Wire Line
 	9550 8900 9900 8900
-Text Label 9850 2900 0    50   ~ 0
-PWM_DOUT4
 Text Label 10000 6400 0    50   ~ 0
 PWM_DOUT5
 Wire Wire Line
-	10000 6400 9550 6400
-Wire Wire Line
 	9850 2900 9550 2900
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 60A7645A
-P 4600 3200
-F 0 "JP1" H 4600 3385 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4600 3294 50  0000 C CNN
-F 2 "AR2ISS:SOLDER_JUMPER" H 4600 3200 50  0001 C CNN
-F 3 "~" H 4600 3200 50  0001 C CNN
-	1    4600 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 60A76AA5
-P 4600 3300
-F 0 "JP2" H 4600 3485 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4600 3394 50  0000 C CNN
-F 2 "AR2ISS:SOLDER_JUMPER" H 4600 3300 50  0001 C CNN
-F 3 "~" H 4600 3300 50  0001 C CNN
-	1    4600 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3300 4500 3300
-Wire Wire Line
-	3650 3200 4500 3200
-Text HLabel 5150 3200 2    50   Input ~ 0
-ENC_A
-Text HLabel 5150 3300 2    50   Input ~ 0
-ENC_B
-Wire Wire Line
-	5150 3300 4700 3300
-Wire Wire Line
-	4700 3200 5150 3200
-Wire Wire Line
-	9850 2300 9550 2300
 Wire Wire Line
 	9850 2600 9550 2600
 Wire Wire Line
@@ -795,9 +753,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 3800 9550 3800
 Wire Wire Line
-	6550 4700 6950 4700
-Wire Wire Line
-	6950 4800 6550 4800
+	9550 4900 9950 4900
 Wire Wire Line
 	6950 7100 6500 7100
 Wire Wire Line
@@ -819,6 +775,65 @@ Wire Wire Line
 	9900 8500 9550 8500
 Wire Wire Line
 	9550 8600 9900 8600
+Wire Wire Line
+	3650 3200 4500 3200
+Wire Wire Line
+	3650 3300 4500 3300
+Wire Wire Line
+	9950 6600 9550 6600
+Text HLabel 9950 6600 2    50   Input ~ 0
+CD
+$Comp
+L power:+5V #PWR0147
+U 1 1 60B76364
+P 7550 1700
+F 0 "#PWR0147" H 7550 1550 50  0001 C CNN
+F 1 "+5V" H 7565 1873 50  0000 C CNN
+F 2 "" H 7550 1700 50  0001 C CNN
+F 3 "" H 7550 1700 50  0001 C CNN
+	1    7550 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1700 7550 1800
+NoConn ~ 6950 4000
+NoConn ~ 6950 4100
+NoConn ~ 6950 4200
+NoConn ~ 6950 4300
+NoConn ~ 6950 4400
+NoConn ~ 6950 4500
+NoConn ~ 6950 5100
+NoConn ~ 6950 5300
+NoConn ~ 6950 5500
+NoConn ~ 6950 5700
+NoConn ~ 6950 5800
+NoConn ~ 6950 5900
+NoConn ~ 6950 6000
+NoConn ~ 6950 6100
+NoConn ~ 6950 6200
+NoConn ~ 6950 6900
+NoConn ~ 6950 7000
+NoConn ~ 6950 7500
+NoConn ~ 9550 2400
+NoConn ~ 9550 2500
+NoConn ~ 9550 3000
+NoConn ~ 9550 3100
+NoConn ~ 9550 3200
+NoConn ~ 9550 3400
+NoConn ~ 9550 3500
+NoConn ~ 9550 4000
+NoConn ~ 9550 5300
+NoConn ~ 9550 5400
+NoConn ~ 9550 5800
+NoConn ~ 9550 6100
+NoConn ~ 9550 6200
+NoConn ~ 9550 7100
+NoConn ~ 9550 7200
+NoConn ~ 9550 8200
+NoConn ~ 9550 8300
+NoConn ~ 9550 8400
+NoConn ~ 6950 3700
+NoConn ~ 6950 3800
 Wire Bus Line
 	12800 8750 12800 9500
 Wire Bus Line
